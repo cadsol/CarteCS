@@ -1,0 +1,1680 @@
+{
+	"kml": {
+		"Document": {
+			"name": "Les Cadrans Solaire du Québec",
+			"description": "Rouge = Cadran publique<br>Bleu     = Cadran privé<br>Jaune  = Cadran publique à accès contrôlé<br>",
+			"Style": [
+				{
+					"IconStyle": {
+						"color": "ffa95b3f",
+						"scale": "1.1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "16",
+							"_xunits": "pixels",
+							"_y": "32",
+							"_yunits": "insetPixels"
+						}
+					},
+					"_id": "icon-503-3F5BA9-labelson"
+				},
+				{
+					"IconStyle": {
+						"color": "fff08641",
+						"scale": "1.1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "16",
+							"_xunits": "pixels",
+							"_y": "32",
+							"_yunits": "insetPixels"
+						}
+					},
+					"_id": "icon-503-4186F0-labelson"
+				},
+				{
+					"IconStyle": {
+						"color": "ff3644db",
+						"scale": "1.1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "16",
+							"_xunits": "pixels",
+							"_y": "32",
+							"_yunits": "insetPixels"
+						}
+					},
+					"LabelStyle": {
+						"scale": "0"
+					},
+					"_id": "icon-503-DB4436-normal"
+				},
+				{
+					"IconStyle": {
+						"color": "ff3644db",
+						"scale": "1.1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "16",
+							"_xunits": "pixels",
+							"_y": "32",
+							"_yunits": "insetPixels"
+						}
+					},
+					"LabelStyle": {
+						"scale": "1.1"
+					},
+					"_id": "icon-503-DB4436-highlight"
+				},
+				{
+					"IconStyle": {
+						"color": "ff3644db",
+						"scale": "1.1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "16",
+							"_xunits": "pixels",
+							"_y": "32",
+							"_yunits": "insetPixels"
+						}
+					},
+					"_id": "icon-503-DB4436-labelson"
+				},
+				{
+					"IconStyle": {
+						"color": "ff3644db",
+						"scale": "1.1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "16",
+							"_xunits": "pixels",
+							"_y": "32",
+							"_yunits": "insetPixels"
+						}
+					},
+					"BalloonStyle": {
+						"text": "<h3>$[name]</h3>"
+					},
+					"_id": "icon-503-DB4436-labelson-nodesc"
+				},
+				{
+					"IconStyle": {
+						"color": "ff37ebf4",
+						"scale": "1.1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "16",
+							"_xunits": "pixels",
+							"_y": "32",
+							"_yunits": "insetPixels"
+						}
+					},
+					"_id": "icon-503-F4EB37-labelson"
+				},
+				{
+					"IconStyle": {
+						"color": "ff37ebf4",
+						"scale": "1.1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "16",
+							"_xunits": "pixels",
+							"_y": "32",
+							"_yunits": "insetPixels"
+						}
+					},
+					"BalloonStyle": {
+						"text": "<h3>$[name]</h3>"
+					},
+					"_id": "icon-503-F4EB37-labelson-nodesc"
+				},
+				{
+					"IconStyle": {
+						"color": "ffa6f7f9",
+						"scale": "1.1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "16",
+							"_xunits": "pixels",
+							"_y": "32",
+							"_yunits": "insetPixels"
+						}
+					},
+					"_id": "icon-503-F9F7A6-labelson"
+				},
+				{
+					"IconStyle": {
+						"color": "ffa6f7f9",
+						"scale": "1.1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "16",
+							"_xunits": "pixels",
+							"_y": "32",
+							"_yunits": "insetPixels"
+						}
+					},
+					"BalloonStyle": {
+						"text": "<h3>$[name]</h3>"
+					},
+					"_id": "icon-503-F9F7A6-labelson-nodesc"
+				}
+			],
+			"StyleMap": {
+				"Pair": [
+					{
+						"key": "normal",
+						"styleUrl": "#icon-503-DB4436-normal"
+					},
+					{
+						"key": "highlight",
+						"styleUrl": "#icon-503-DB4436-highlight"
+					}
+				],
+				"_id": "icon-503-DB4436"
+			},
+			"Folder": [
+				{
+					"name": "Sague-Lac S-J / Manicou / Duplessi",
+					"Placemark": [
+						{
+							"name": "341 Pointe-aux-Outardes",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUGlXqI4TQh-7PgZhfakl-JsOjRnYDor9Cdbyi-RU7U3to24sXGkab7vYiuyE4oBY7O930szRVDXXsZszrtNUwAHU5jRaWpx85OQ8D_eGttR3Lr5_H-EQ_JFVXb0bRNBJrlgvm9xjFWrERfeYjOqU2lRVcX3a6qO-XkMzklWriLA84PXYSi0w43NNE_cHqPUQQ\" height=\"200\" width=\"auto\" /><br><br>Pointe-aux-Outardes<br><br><img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/41dgos771pfi91d2e246nt2cho/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZmq18ixfWC43xmpUHnCryW21iRCKKWyfSv6pgn0tdOnplwPsinY-5h_UiS-uVvYZ9G7GgLqcJlrwdrs1girhC7UV5swoMFNT8Sr1rQQ_NrSNSnEJb0OkaL1OrfEvddjXZnJWTp4emIOKXpL-kBulS2TsG6zIpAmG67la-1uq6qOC_azqpxbDY7aqEQ?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUGlXqI4TQh-7PgZhfakl-JsOjRnYDor9Cdbyi-RU7U3to24sXGkab7vYiuyE4oBY7O930szRVDXXsZszrtNUwAHU5jRaWpx85OQ8D_eGttR3Lr5_H-EQ_JFVXb0bRNBJrlgvm9xjFWrERfeYjOqU2lRVcX3a6qO-XkMzklWriLA84PXYSi0w43NNE_cHqPUQQ https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/41dgos771pfi91d2e246nt2cho/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZmq18ixfWC43xmpUHnCryW21iRCKKWyfSv6pgn0tdOnplwPsinY-5h_UiS-uVvYZ9G7GgLqcJlrwdrs1girhC7UV5swoMFNT8Sr1rQQ_NrSNSnEJb0OkaL1OrfEvddjXZnJWTp4emIOKXpL-kBulS2TsG6zIpAmG67la-1uq6qOC_azqpxbDY7aqEQ?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-68.4468842,49.0461948,0"
+							}
+						},
+						{
+							"name": "005 Vieux Port de Chicoutimi",
+							"description": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ea1ar5dnnj2jra4pjac904tjtk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaGNa-RC1uzplX2xyLwft3GeCpgiE45_DoJrlGwybOJrCpEJWQcbNq-FwE89RKtwPfWpb6r3m8YJEhhokq1dzphMFDU2Jr9FVj19gtbdQETq5J7CL9f_4Uka51FV9yj3rPrZ46OWCxwKvbqQMdpN3cBmf-F1WLDLCfjfnFitsO6Lf_6TJ-tm6DbuFPb?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Vieux Port de Chicoutimi",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ea1ar5dnnj2jra4pjac904tjtk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaGNa-RC1uzplX2xyLwft3GeCpgiE45_DoJrlGwybOJrCpEJWQcbNq-FwE89RKtwPfWpb6r3m8YJEhhokq1dzphMFDU2Jr9FVj19gtbdQETq5J7CL9f_4Uka51FV9yj3rPrZ46OWCxwKvbqQMdpN3cBmf-F1WLDLCfjfnFitsO6Lf_6TJ-tm6DbuFPb?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-71.0640228,48.4302755,0"
+							}
+						},
+						{
+							"name": "406 Saint-Aubert",
+							"description": "<img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/tk3d1um72rvaafivlhopbd3hhk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va_sGL8wQ7nEdeSL1Dz3vGt0R6gJaxXXzPl4lvwqxTaEl5LTeDxIahGUJOlxp46sXXoz3zgmkMnyu2i-Iy9rmkQD34IoMIrM0hG4F-6XgraSXrJ6qQqMPSv8ZLR1ty-nloskLa41NvaXlFloMCYgFc65qp44o5fGIi7Pzzlz7SPzme13zTdDKrxCpj9?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Parc près de l'église",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/tk3d1um72rvaafivlhopbd3hhk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va_sGL8wQ7nEdeSL1Dz3vGt0R6gJaxXXzPl4lvwqxTaEl5LTeDxIahGUJOlxp46sXXoz3zgmkMnyu2i-Iy9rmkQD34IoMIrM0hG4F-6XgraSXrJ6qQqMPSv8ZLR1ty-nloskLa41NvaXlFloMCYgFc65qp44o5fGIi7Pzzlz7SPzme13zTdDKrxCpj9?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-70.218958,47.1805687,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Centre du Québec/Chaudière Appalaches",
+					"Placemark": [
+						{
+							"name": "030 Domaine Joly",
+							"description": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/5khjk6nu446v91cmlbc6oigql4/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaCVrraYKrF1Wz_yeuN6SvMo78yA9Q2TrrAnJIu_au4RoVBrb4UPqSU4ynRA3fjHXnOW-SWF3SrVBpMdbyujzty3j9yf27DL76eimTtGcQroBHsT-zPRVzj3slzk6wynGWlKLU-WZKnVKgG4sF-oTN-jRhWyyiv0FLTRHEXkmAXZBB8ZIqh_gZqMAGG?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>7015 route Point au Platon",
+							"styleUrl": "#icon-503-F9F7A6-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/5khjk6nu446v91cmlbc6oigql4/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaCVrraYKrF1Wz_yeuN6SvMo78yA9Q2TrrAnJIu_au4RoVBrb4UPqSU4ynRA3fjHXnOW-SWF3SrVBpMdbyujzty3j9yf27DL76eimTtGcQroBHsT-zPRVzj3slzk6wynGWlKLU-WZKnVKgG4sF-oTN-jRhWyyiv0FLTRHEXkmAXZBB8ZIqh_gZqMAGG?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-71.8502426,46.665077,0"
+							}
+						},
+						{
+							"name": "367 St-Benoit-Labre",
+							"description": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/vc14fmk5pj789nnf8ilomibb5c/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZHa9mh-eLP6AmVqvW_ihMCvatND8Io3x6PxZ5WXfUbeDpOCQ6mehRZ7-gNqUB813pWqgwYsDB6g3E_jDHX-6fUIBfg-J8mkp7VW2zyweU3ZEETe6twjEVo_7xnpb7ckSACLVdZDHCURq3AUOMbfdHr7VwbsaoswMoVV6sxD3BrwAjII85G5WCCK642?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Coin rte 367 et rue Principale",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/vc14fmk5pj789nnf8ilomibb5c/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZHa9mh-eLP6AmVqvW_ihMCvatND8Io3x6PxZ5WXfUbeDpOCQ6mehRZ7-gNqUB813pWqgwYsDB6g3E_jDHX-6fUIBfg-J8mkp7VW2zyweU3ZEETe6twjEVo_7xnpb7ckSACLVdZDHCURq3AUOMbfdHr7VwbsaoswMoVV6sxD3BrwAjII85G5WCCK642?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-70.7915989,46.0701864,0"
+							}
+						},
+						{
+							"name": "382 Société  Transport  Lévis",
+							"description": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ps2qdqpujskk4oa1ue09jbr5lc/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaZ-NUllWeBHigy8QB8ualgHsnbsS5BPJ0fZpAb-EkjditFTglC56HKR8hP7uheeVoB4iOCrzHMiF36qGpEZNlFUkq3JHIRpp-8-qJaXNlavFx8Tl3py8_rGkpozdLXjlCaDbdelLOSpVYTXkPY7uGOgXzoHNFoMh14W3-WK431KRxRUIIYVvTzDieI?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>229 Rue Saint-Omer",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ps2qdqpujskk4oa1ue09jbr5lc/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaZ-NUllWeBHigy8QB8ualgHsnbsS5BPJ0fZpAb-EkjditFTglC56HKR8hP7uheeVoB4iOCrzHMiF36qGpEZNlFUkq3JHIRpp-8-qJaXNlavFx8Tl3py8_rGkpozdLXjlCaDbdelLOSpVYTXkPY7uGOgXzoHNFoMh14W3-WK431KRxRUIIYVvTzDieI?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-71.1584691,46.8029554,0"
+							}
+						},
+						{
+							"name": "224 Village Québécois d'Antan",
+							"description": "1425 rue Montplaisir",
+							"styleUrl": "#icon-503-F4EB37-labelson",
+							"Point": {
+								"coordinates": "-72.4845368,45.8955937,0"
+							}
+						},
+						{
+							"name": "242 Saint-Guillaune",
+							"description": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/4k3gh50h3ioioeu05sh2fidrf8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYWGHnNYjghP6r9mJPQeYUSGRPJdy6pM9dtrTffbWxiRwpL9uq1LONX1F2DXrAEcwOrVKBkDKJDXOspUftqtJKYk5tvxjLkfnZKhRTqJTyaOor2eW05k3CrXylPsWBRqly8nW9oQYdQ1UCcliYRAw2aFSkQXeR6BpH5fZrW-PtZdjnQSSFpUrTQGhCm?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>72, rue Principale",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/4k3gh50h3ioioeu05sh2fidrf8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYWGHnNYjghP6r9mJPQeYUSGRPJdy6pM9dtrTffbWxiRwpL9uq1LONX1F2DXrAEcwOrVKBkDKJDXOspUftqtJKYk5tvxjLkfnZKhRTqJTyaOor2eW05k3CrXylPsWBRqly8nW9oQYdQ1UCcliYRAw2aFSkQXeR6BpH5fZrW-PtZdjnQSSFpUrTQGhCm?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.7688026,45.8810425,0"
+							}
+						},
+						{
+							"name": "259 Warwick",
+							"description": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/33bv7fb6spjhlcsppu6073q7f4/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZhJhf4cdiJp0DROTEqu1v7oMcGlLZFq86dAa0UVz1_diT_376AvMOPMB6NWY4DW3joMinJ2d3nMXvWQ3TeSs-Tt98f0rosxG83L_JoAiqQGRV31wkgmvHqovKcnOiHLcP265rq3VM6b1mrBjvcJ9d593SWF2t6n7-RInGViOajiav4gIKxzYrj20rp?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>10, rue l'Heureux,   Parc Fondation Étoile d'Or",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/33bv7fb6spjhlcsppu6073q7f4/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZhJhf4cdiJp0DROTEqu1v7oMcGlLZFq86dAa0UVz1_diT_376AvMOPMB6NWY4DW3joMinJ2d3nMXvWQ3TeSs-Tt98f0rosxG83L_JoAiqQGRV31wkgmvHqovKcnOiHLcP265rq3VM6b1mrBjvcJ9d593SWF2t6n7-RInGViOajiav4gIKxzYrj20rp?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-71.9863594,45.9454504,0"
+							}
+						},
+						{
+							"name": "319 Nicolet",
+							"description": "<img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/e0da1ru9s7t7vl5nl18fql9k78/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vae7CJ-pjM1niBYPi-O0EG_8EaMIfyR-THqccMSXW7rZCvS0jla_6gpS5wIhy7brKQwbtWJ_KvoaOAUY3eGpNhEoK4CNJGC_dSCUs8G9cnsPcPrKbJWKHeCJwd3H4es06o6V_Ha6wUzRlUuB3vWh06DjUhT7PS9nFIamIhoUL6kXktzGBnTbB7vbr7h?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>École de police<br><br><img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/b95m6okhc9rdv88gdejm9uhjio/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZC0lm-fGGRC42MtHz6yMUzuo8lerHw6tJjzgcxqnz2hyUB20tLA_hDiAUoi9-6R_JyCrh0TWbxcuOVp51jgg7C4l6BbOfmXOMXoS6REhoaqn257VXk-LATYdcWJ6pcmL2TfxbwwenCus8vyUzyZ9WoUh7oiBVXCeAaRPMyEaw9FqliwMTkrxwaG-20?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/e0da1ru9s7t7vl5nl18fql9k78/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vae7CJ-pjM1niBYPi-O0EG_8EaMIfyR-THqccMSXW7rZCvS0jla_6gpS5wIhy7brKQwbtWJ_KvoaOAUY3eGpNhEoK4CNJGC_dSCUs8G9cnsPcPrKbJWKHeCJwd3H4es06o6V_Ha6wUzRlUuB3vWh06DjUhT7PS9nFIamIhoUL6kXktzGBnTbB7vbr7h?session=0&fife https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/b95m6okhc9rdv88gdejm9uhjio/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZC0lm-fGGRC42MtHz6yMUzuo8lerHw6tJjzgcxqnz2hyUB20tLA_hDiAUoi9-6R_JyCrh0TWbxcuOVp51jgg7C4l6BbOfmXOMXoS6REhoaqn257VXk-LATYdcWJ6pcmL2TfxbwwenCus8vyUzyZ9WoUh7oiBVXCeAaRPMyEaw9FqliwMTkrxwaG-20?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.6166946,46.2285628,0"
+							}
+						},
+						{
+							"name": "374 Villa-Parc de la Paix",
+							"description": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/cugpukk26f78lln8uaf4q5bo10/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYP2QZyi54hVY3xkVd0XgUbuMC1Mj6ZxTWT0jwoV19aGL7ewQwPk2T_syHW3P2-L8-rFNsKrvEwJa9rk1IE9Awkm9wkvmjwtKfWbTcQcY6F-vQ5s0xuBtmbSatDD0j6BQHO0lqlKtWRs5DbIJHHJbfIZddjIvMwPlvjxqku2hXhUAieGCJ1ADlqrXgx?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>305 Rue Cockburn, Drummondville",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/cugpukk26f78lln8uaf4q5bo10/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYP2QZyi54hVY3xkVd0XgUbuMC1Mj6ZxTWT0jwoV19aGL7ewQwPk2T_syHW3P2-L8-rFNsKrvEwJa9rk1IE9Awkm9wkvmjwtKfWbTcQcY6F-vQ5s0xuBtmbSatDD0j6BQHO0lqlKtWRs5DbIJHHJbfIZddjIvMwPlvjxqku2hXhUAieGCJ1ADlqrXgx?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.4940183,45.8828789,0"
+							}
+						},
+						{
+							"name": "383 Victoriaville",
+							"description": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/84ubgg9eef1p76sq1csj3fqo8g/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZBgWcANXOAOTOCasXEVcANOqe-aDegja6__Fk6Y-spniIZezNLlbkTSWAF6Bp96eNUzlFN2u2aLZqqgiP8RBaILYMJenXKvLeNXIne6-uK6xwPdfP-RnlAJg-JrjA6f39pLKUdURo708NfvFvzvJWClLuYep1xG1WfXKZHFQH4M_kn8m5HfJp0noEO?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>1, reu Notre-Dame O",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/84ubgg9eef1p76sq1csj3fqo8g/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZBgWcANXOAOTOCasXEVcANOqe-aDegja6__Fk6Y-spniIZezNLlbkTSWAF6Bp96eNUzlFN2u2aLZqqgiP8RBaILYMJenXKvLeNXIne6-uK6xwPdfP-RnlAJg-JrjA6f39pLKUdURo708NfvFvzvJWClLuYep1xG1WfXKZHFQH4M_kn8m5HfJp0noEO?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-71.9621508,46.0595319,0"
+							}
+						},
+						{
+							"name": "246 St-Roch-des-Aulnaies",
+							"description": "<img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/vjdd6kkrvf7efipahq2l49pddc/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb8wxwh4NjjB30UAloI6lwDXfB2CLfDwWSYV-4Jf2D7139KawNzuzPszNUrbjPIYBhmLRQueB5zHzq6DYpt5OnpCJ7OrwhpLBuNYcfUnKLOv8YH2Q1NpPBuKAk_Y1OatClSiUlz2lNri-AfudNaEHI-Wrg4SqYtugS51MvGKwSl4-PQZqHuP3G1Aiq_?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Église St-Roch-des-Aulnaies",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/vjdd6kkrvf7efipahq2l49pddc/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb8wxwh4NjjB30UAloI6lwDXfB2CLfDwWSYV-4Jf2D7139KawNzuzPszNUrbjPIYBhmLRQueB5zHzq6DYpt5OnpCJ7OrwhpLBuNYcfUnKLOv8YH2Q1NpPBuKAk_Y1OatClSiUlz2lNri-AfudNaEHI-Wrg4SqYtugS51MvGKwSl4-PQZqHuP3G1Aiq_?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-70.1776063,47.3112202,0"
+							}
+						},
+						{
+							"name": "413  Parc des gnomes",
+							"styleUrl": "#icon-503-DB4436-labelson-nodesc",
+							"Point": {
+								"coordinates": "-72.5351646,46.3023583,0"
+							}
+						},
+						{
+							"name": "415 Nicolas Perrot",
+							"description": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/i220lbv1lcpsggicj82cs93t8k/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va00_ZT4-6DT52SorZBRSHKTS-yYLmARceojC0gXSFsLmr-kJISTsyG8TeTB31LMojQ7huskPMvVOrecOMzYIoo1R4ysC1to7HuVfASta1vC0hmq8iolIa7y7Lsam-PYaL0axd1ZVDkaki6Wldmv7zlPmRvKjeFSEfAsHbNg-Y0gTAq0fiVx4_xp35e?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Nicolas Perrot, Bécancour, Québec",
+							"styleUrl": "#icon-503-4186F0-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/i220lbv1lcpsggicj82cs93t8k/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va00_ZT4-6DT52SorZBRSHKTS-yYLmARceojC0gXSFsLmr-kJISTsyG8TeTB31LMojQ7huskPMvVOrecOMzYIoo1R4ysC1to7HuVfASta1vC0hmq8iolIa7y7Lsam-PYaL0axd1ZVDkaki6Wldmv7zlPmRvKjeFSEfAsHbNg-Y0gTAq0fiVx4_xp35e?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.4371822,46.3465223,0"
+							}
+						},
+						{
+							"name": "321 Seigneurie des Aulnais",
+							"description": "<img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/j4gppe9cua2dn2l9r1djt0gvdk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZW0xBIAhLi2LgEUNAWj6nqHNxSuME2wXWS5QfePaQrTfJBbGvxpjcYyGEepvQS6tpX7tbcF9-Ap2PcYQUB1H0MfUxAQ38BDMC9f-QhUOekC_gXcU6hbN2Sz_h5pbTfw_IwDjlo1eswj6-ffIHHRphg6UhXOdy2HZQSE0np2yuOt87eYGqjuFr6L9Bt?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Seigneurie St-Roch-des-Aulnaies",
+							"styleUrl": "#icon-503-F4EB37-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/j4gppe9cua2dn2l9r1djt0gvdk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZW0xBIAhLi2LgEUNAWj6nqHNxSuME2wXWS5QfePaQrTfJBbGvxpjcYyGEepvQS6tpX7tbcF9-Ap2PcYQUB1H0MfUxAQ38BDMC9f-QhUOekC_gXcU6hbN2Sz_h5pbTfw_IwDjlo1eswj6-ffIHHRphg6UhXOdy2HZQSE0np2yuOt87eYGqjuFr6L9Bt?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-70.1441082,47.3152573,0"
+							}
+						},
+						{
+							"name": "286 Kingsey Falls",
+							"description": "385 Boulevard Marie Victorin",
+							"styleUrl": "#icon-503-F4EB37-labelson",
+							"Point": {
+								"coordinates": "-72.0751313,45.8540891,0"
+							}
+						},
+						{
+							"name": "384 Princeville",
+							"description": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/489hd4tsl9r14dhdpvvgf998jg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYO-Z-O1J_uVetvzHHRof86SoSuNTwn3kIUmpLRy_XdP2pl4Pv09PrdccrrGBNKIs1gA6Gz2ziiRDLq7XYisJceQCvfqdBR6gDJ9oG9lEdED_vWm1ECoDEXbA1Lro7H0a6xsLuOhwzhtZfMOaYt3L7mgf1Yby9XCQ_F7rdPfBJhKZ_hIYheZIAoDRNL?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Piste cyclable arrière École Ste-Marie",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/489hd4tsl9r14dhdpvvgf998jg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYO-Z-O1J_uVetvzHHRof86SoSuNTwn3kIUmpLRy_XdP2pl4Pv09PrdccrrGBNKIs1gA6Gz2ziiRDLq7XYisJceQCvfqdBR6gDJ9oG9lEdED_vWm1ECoDEXbA1Lro7H0a6xsLuOhwzhtZfMOaYt3L7mgf1Yby9XCQ_F7rdPfBJhKZ_hIYheZIAoDRNL?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-71.8745971,46.1701946,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Bas-Saint-Laurent / Gaspésie",
+					"Placemark": [
+						{
+							"name": "318, 364, 369, 371 Jardins de Doris",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUExJKRnlNWg0uRDuygTfzuBehtHT6zYg19IyyBC9KaCZxlpJgVX1kuum6FGAsFR4IUpuktmxuR1gUojncZhtaGEuk0ooNmyG7ZAajHAzujUlMtyDwoWTaK3XoShLN_WdpYD9tO5VoplEIiJrrwVAo5zf-eJDk5j8HMYt4yRo-3dqHxFisImT7brjpJAwjZBcA\" height=\"200\" width=\"auto\" /><br><br>Jardins de Doris à Matane<br><br><img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/o3rsf0uk16k96ns5e68u0m5ldg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZ7hFX1Q0luVjVrPboDepIx9MUXyF1o1HPbOWP4fnK1hkF5K58e7kpRVGYarnWYd-TxCirdLuWJ3_TWIKpstSpf3oMIQFs_1WNRWe26bSn-qSustNcFhIWEL6GfK5PWWka25XlRlR7oWg2XXAoNczkQUDvPQRqsd0iMfmYoQ8xtZgmRlMAlMYXcSjqT?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/u4i17piu8fdbaddsdvv7cofbhk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb60FEkNFUFWTdzKc2FlLF93UHASeulHb7_gBVNodw1wura-Dsto2vzDC-I5RQwM2RIR6O3SBsmpAN_zdN0piC-kYBIYv7dfYE5FLL_TI0Q2fKhjKQDvkNVUx7xz1y938yucdcHLNhtPqBf9ednWSqjQISGjjFu4TxVgLsK23gfDE9v-7IiqoxeeVgo?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUExJKRnlNWg0uRDuygTfzuBehtHT6zYg19IyyBC9KaCZxlpJgVX1kuum6FGAsFR4IUpuktmxuR1gUojncZhtaGEuk0ooNmyG7ZAajHAzujUlMtyDwoWTaK3XoShLN_WdpYD9tO5VoplEIiJrrwVAo5zf-eJDk5j8HMYt4yRo-3dqHxFisImT7brjpJAwjZBcA https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/o3rsf0uk16k96ns5e68u0m5ldg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZ7hFX1Q0luVjVrPboDepIx9MUXyF1o1HPbOWP4fnK1hkF5K58e7kpRVGYarnWYd-TxCirdLuWJ3_TWIKpstSpf3oMIQFs_1WNRWe26bSn-qSustNcFhIWEL6GfK5PWWka25XlRlR7oWg2XXAoNczkQUDvPQRqsd0iMfmYoQ8xtZgmRlMAlMYXcSjqT?session=0&fife https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/u4i17piu8fdbaddsdvv7cofbhk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb60FEkNFUFWTdzKc2FlLF93UHASeulHb7_gBVNodw1wura-Dsto2vzDC-I5RQwM2RIR6O3SBsmpAN_zdN0piC-kYBIYv7dfYE5FLL_TI0Q2fKhjKQDvkNVUx7xz1y938yucdcHLNhtPqBf9ednWSqjQISGjjFu4TxVgLsK23gfDE9v-7IiqoxeeVgo?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-67.5441465,48.835206,0"
+							}
+						},
+						{
+							"name": "002 Saint-Louis-du-HaHa",
+							"description": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/3ngsdt4jv3ad3tgmtpm0t0pn20/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbB4Ekkcm7vsjDx8CY8omSgs3QfFEiIPAi8W1gNu2G-55VhvOHskEDlK8rPCK_rb2Qd93kMQXK8Izffk2FcFBrlCBq80nU8ch8xM-LzFgn0qL3dd8pOS2SLl2i-Az41pmH1NxD3TeNubezlbvHPfzqPd8GqjE-fm-NvnGCqfw6oalWjoT-gFeWay4zZ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Observatoire club Aster",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/3ngsdt4jv3ad3tgmtpm0t0pn20/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbB4Ekkcm7vsjDx8CY8omSgs3QfFEiIPAi8W1gNu2G-55VhvOHskEDlK8rPCK_rb2Qd93kMQXK8Izffk2FcFBrlCBq80nU8ch8xM-LzFgn0qL3dd8pOS2SLl2i-Az41pmH1NxD3TeNubezlbvHPfzqPd8GqjE-fm-NvnGCqfw6oalWjoT-gFeWay4zZ?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-68.9889264,47.6553864,0"
+							}
+						},
+						{
+							"name": "292 Isle-Verte",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUFzjrxMdgSzq2SEv10pp7nzoHKDftXFUDRHFw_EbRufmCrMh29uVrIl82TQGdX4DgBV5QdFx8KvyICm5YPL1WXNn2B4tYNroZSw6Z3k2KLqp0Jm4AwJaMAUCAdMjT3iFQkJB2Ca_1vtB-m6GCeUvllnPVbgZRVUY1YUvDP7ehhyqeLwupdxVNqF87XxNk8zDw\" height=\"200\" width=\"auto\" /><br><br>Mme Beaulieu<br><br><img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ihco1eamukr4elrftf6lchjqds/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYhkvnbKdbLdjSCmWBtR26O2IAqr--fe6_Srja2C9AfoS4hFgfF2sFrmijRbQ8Su-i-8p_4Jtn2jjcXzZJSjbO7cNGT_Dzi2dGmMZgm0T61Q0FuJirebWvhoW_HXDC42FuN9ak9yWiURH-As5iozXnuZm-_LH4zz_fkpuzOe-lEkw7d8FC-C07KGQwt?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/cjdahk0qm5pp472i8nf2oekfos/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vY_9nWkU8JyIqyDY8Oo6qlJgg1fS4MnBqfbEXC9x1QmbWTQxWDbsl_GvFWD1Kuksa3bgZ3Bn2pQ-lgh_4-6HXJNMFXJe-doPNC6pf4Nqv7WB_N3JQvdsNudTy7a3XBt-L367Co4zplMI-YoisOxf7f0Fy2VGIeRQYSk-qskX2g2StIxWed0_xlzviM_?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/vd50tc9mmb81vjjag95i0m0b64/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaPYQujp2QRd5GcnAVlpan-oErPnQHHiYCW9HKHo6AedXfJI3OdgHATK3UhAhu7yvNdhIAE2Ut0AE6Ri9wzQYeM3v9-3oCDR_gAKnLYWq1oGZyjz3ZYlMvMlQr0K2jmzyc1O6rLkgEk7LD__9sksWOLf_YOxVvKWdU7Rl3M_mzI8nB2bMusa-Kqh6Sj?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/4hs9te9fte21ao52ql5mql1ml8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb8qS2xLrC1eyGBijgv9JjOHjccT9Vs8nk74no6ayVKrVYUkcHcqLLtEDhoYCRBNa5V7cWiRsD1r3yMDPKQtF8JCY4m2DDFDdiodetoaPkngVd07bK-jUNoBQ8A0EpZ6VILAva8Hbspl8uF65qeFoVKyCtgk9FnEsuwvRZT-07E8iFLXW2KxKFJK3nf?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUFzjrxMdgSzq2SEv10pp7nzoHKDftXFUDRHFw_EbRufmCrMh29uVrIl82TQGdX4DgBV5QdFx8KvyICm5YPL1WXNn2B4tYNroZSw6Z3k2KLqp0Jm4AwJaMAUCAdMjT3iFQkJB2Ca_1vtB-m6GCeUvllnPVbgZRVUY1YUvDP7ehhyqeLwupdxVNqF87XxNk8zDw https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ihco1eamukr4elrftf6lchjqds/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYhkvnbKdbLdjSCmWBtR26O2IAqr--fe6_Srja2C9AfoS4hFgfF2sFrmijRbQ8Su-i-8p_4Jtn2jjcXzZJSjbO7cNGT_Dzi2dGmMZgm0T61Q0FuJirebWvhoW_HXDC42FuN9ak9yWiURH-As5iozXnuZm-_LH4zz_fkpuzOe-lEkw7d8FC-C07KGQwt?session=0&fife https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/cjdahk0qm5pp472i8nf2oekfos/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vY_9nWkU8JyIqyDY8Oo6qlJgg1fS4MnBqfbEXC9x1QmbWTQxWDbsl_GvFWD1Kuksa3bgZ3Bn2pQ-lgh_4-6HXJNMFXJe-doPNC6pf4Nqv7WB_N3JQvdsNudTy7a3XBt-L367Co4zplMI-YoisOxf7f0Fy2VGIeRQYSk-qskX2g2StIxWed0_xlzviM_?session=0&fife https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/vd50tc9mmb81vjjag95i0m0b64/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaPYQujp2QRd5GcnAVlpan-oErPnQHHiYCW9HKHo6AedXfJI3OdgHATK3UhAhu7yvNdhIAE2Ut0AE6Ri9wzQYeM3v9-3oCDR_gAKnLYWq1oGZyjz3ZYlMvMlQr0K2jmzyc1O6rLkgEk7LD__9sksWOLf_YOxVvKWdU7Rl3M_mzI8nB2bMusa-Kqh6Sj?session=0&fife https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/4hs9te9fte21ao52ql5mql1ml8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb8qS2xLrC1eyGBijgv9JjOHjccT9Vs8nk74no6ayVKrVYUkcHcqLLtEDhoYCRBNa5V7cWiRsD1r3yMDPKQtF8JCY4m2DDFDdiodetoaPkngVd07bK-jUNoBQ8A0EpZ6VILAva8Hbspl8uF65qeFoVKyCtgk9FnEsuwvRZT-07E8iFLXW2KxKFJK3nf?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-69.3432677,48.007848,0"
+							}
+						},
+						{
+							"name": "366 Pohénégamook",
+							"description": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/5ma9uqu670tcn5qlfsq7vcn0no/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaDZCLxF87WdE55yQsYRrnLjck1wvgl1i-4P59Ikh4M1W3Rl9wQywPDEt1e2qyxIAXpPbSBLNIGqFZ_qHe52S1Y9AnXVMDQ9bzaxp7-lp3y--q5X8rM6xWeAcX57yDIEWQAeE9OyZh1wBSSaOf5m_-AJ_ou_EUNoJg2gCXeSg-SxmQiy0HKdvyQVktR?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Pohénégamook",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/5ma9uqu670tcn5qlfsq7vcn0no/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaDZCLxF87WdE55yQsYRrnLjck1wvgl1i-4P59Ikh4M1W3Rl9wQywPDEt1e2qyxIAXpPbSBLNIGqFZ_qHe52S1Y9AnXVMDQ9bzaxp7-lp3y--q5X8rM6xWeAcX57yDIEWQAeE9OyZh1wBSSaOf5m_-AJ_ou_EUNoJg2gCXeSg-SxmQiy0HKdvyQVktR?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-69.2819926,47.4892784,0"
+							}
+						},
+						{
+							"name": "379 Percé",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUGimvx8OioJ_4_nvbmM3PCbRlxyrt-Xr6PSESbtq3lrhZEPXoY-AyhFgHCkWBtef9YOg-kRkIlQdqD8dQmTeehz-JAXynUerWndCej6Y607MWoAU16bibDXQ3DRDs8kfV3cUNG1EJ4s8DtXB6zFYvhchkr8BtG7ve6mjvg_FTvqFgpTDIZ94aFLDo1HKqpVfw\" height=\"200\" width=\"auto\" /><br><br>Palais de Justice de Percé<br><br><img src=\"https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/q4mvavdj0io6p7qs8u90l4cj1c/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vY3EoC87B_NURsHLdp4BMPxUKXDkQBMAijDQDEGxw2Rvv594C63kAAQHKG9G1_odjXr9Lu_I72Dy6m-R_HMY64zBy0fIvaCaabnyOUrFXPJfAKyCFJ1mXuSlE2qngGeHu51kQtnq4dKpl7jDa0ynPvJQrH6L09CZwqqHifUbofzo29zwZRs3Fg2l1hz?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUGimvx8OioJ_4_nvbmM3PCbRlxyrt-Xr6PSESbtq3lrhZEPXoY-AyhFgHCkWBtef9YOg-kRkIlQdqD8dQmTeehz-JAXynUerWndCej6Y607MWoAU16bibDXQ3DRDs8kfV3cUNG1EJ4s8DtXB6zFYvhchkr8BtG7ve6mjvg_FTvqFgpTDIZ94aFLDo1HKqpVfw https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/q4mvavdj0io6p7qs8u90l4cj1c/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vY3EoC87B_NURsHLdp4BMPxUKXDkQBMAijDQDEGxw2Rvv594C63kAAQHKG9G1_odjXr9Lu_I72Dy6m-R_HMY64zBy0fIvaCaabnyOUrFXPJfAKyCFJ1mXuSlE2qngGeHu51kQtnq4dKpl7jDa0ynPvJQrH6L09CZwqqHifUbofzo29zwZRs3Fg2l1hz?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-64.212867,48.5238315,0"
+							}
+						},
+						{
+							"name": "303 Ile-Bonaventure",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUGG7gNdYRhGSQdGPezBoqHhVafkUJbH7OLpfMJ8WfaiC1_lP4qw8JADBcptWtnAg0zEWENQXqTihonlhhmSE4ClER80cPfm-F86M0fNRZoZQSxtA8WALRs-Jn4PVr9BD4-gFxJ9U8kdbVLFrd6c0Fq1hJlTkt87g_UfJK5qiMXfAQSvqe_Ir-fyc06NsiZX\" height=\"200\" width=\"auto\" /><br><br>",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUGG7gNdYRhGSQdGPezBoqHhVafkUJbH7OLpfMJ8WfaiC1_lP4qw8JADBcptWtnAg0zEWENQXqTihonlhhmSE4ClER80cPfm-F86M0fNRZoZQSxtA8WALRs-Jn4PVr9BD4-gFxJ9U8kdbVLFrd6c0Fq1hJlTkt87g_UfJK5qiMXfAQSvqe_Ir-fyc06NsiZX",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-64.1687393,48.4886242,0"
+							}
+						},
+						{
+							"name": "168, 190, 191, 194, 210, 211, 212, 213 Iles-de-la-Madeleine",
+							"description": "Route 199, Havre-Aubert",
+							"styleUrl": "#icon-503-F4EB37-labelson",
+							"Point": {
+								"coordinates": "-61.8634192,47.2346607,0"
+							}
+						},
+						{
+							"name": "313 Évéché La Pocatière",
+							"description": "<img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/s5q7ac99vmmgq6k1234d9ve6ss/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYu40hTbYJsVuaKpd5cSTaBYpxoFOFRsLs4VpJ4mvy9JH7izPeMpuoVCS1Wr9dPncoOeyYlx9FFUyTOQV-Dijje11Hx9WU1yTpe_ZgJlENTh4Kh8ZjxUUAzYC3tAcGu9cMW9oUagkcD8xTHog7U_kt5d8uOJmPrfS-WLfyhMsop00Vq7jL4yt9m1leX?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>La Pocatière Évèché",
+							"styleUrl": "#icon-503-F9F7A6-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/s5q7ac99vmmgq6k1234d9ve6ss/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYu40hTbYJsVuaKpd5cSTaBYpxoFOFRsLs4VpJ4mvy9JH7izPeMpuoVCS1Wr9dPncoOeyYlx9FFUyTOQV-Dijje11Hx9WU1yTpe_ZgJlENTh4Kh8ZjxUUAzYC3tAcGu9cMW9oUagkcD8xTHog7U_kt5d8uOJmPrfS-WLfyhMsop00Vq7jL4yt9m1leX?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-70.0297576,47.3731756,0"
+							}
+						},
+						{
+							"name": "396- Mont Bernard Voyer",
+							"description": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/h9dhaq29eargopmiohlonaeros/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbuDwpnA7CLiLDASRSRIOaA7BWNkIx_Wv--L6WEj_l44NTk8AaBp_5Mqv10hYUUALAZtu8sRI0fvovqxVDqt6tW_0Bv4jJxGPVyGzXi4SW429kMlrPUNBbo9H2l0zbTb20giP3ixqSEQ51ACSGeXulIWWGEcYJbK28q2VcR-zX41QM2Azqa-eNE1jGO?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/h9dhaq29eargopmiohlonaeros/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbuDwpnA7CLiLDASRSRIOaA7BWNkIx_Wv--L6WEj_l44NTk8AaBp_5Mqv10hYUUALAZtu8sRI0fvovqxVDqt6tW_0Bv4jJxGPVyGzXi4SW429kMlrPUNBbo9H2l0zbTb20giP3ixqSEQ51ACSGeXulIWWGEcYJbK28q2VcR-zX41QM2Azqa-eNE1jGO?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-68.3371978,48.286145,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Mauricie",
+					"Placemark": [
+						{
+							"name": "315 Shawinigan (église St-Sauveur)",
+							"description": "<img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/759uq814hf62m63g5abi1f9jjk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaXGJEMbqtJvagEWGk-SMjMVLb6VF84UKQQQTwiCUGxC6bLAwVjLZM6I958z5rUyJAku7QZt0fjibYULib8YwdRSYwbc5PnattuMnVAlUUpHWueY7xlxhR0lz1jC6MINpZNZ5OdJBOZtdmuYy5HWQeRcxvHrcC3F4FYtweb-j59KjwfYbXp68IQUpth?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Église Saint-Sauveur",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/759uq814hf62m63g5abi1f9jjk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaXGJEMbqtJvagEWGk-SMjMVLb6VF84UKQQQTwiCUGxC6bLAwVjLZM6I958z5rUyJAku7QZt0fjibYULib8YwdRSYwbc5PnattuMnVAlUUpHWueY7xlxhR0lz1jC6MINpZNZ5OdJBOZtdmuYy5HWQeRcxvHrcC3F4FYtweb-j59KjwfYbXp68IQUpth?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.74381,46.51874,0"
+							}
+						},
+						{
+							"name": "361 St-Étienne (chem Landry)",
+							"description": "Chem. Landry Saint-Étienne-des-Grès",
+							"styleUrl": "#icon-503-3F5BA9-labelson",
+							"Point": {
+								"coordinates": "-72.82506,46.44745,0"
+							}
+						},
+						{
+							"name": "391 St-Étienne (Lise)",
+							"description": "Chemin des Dalles, Saint-Étienne-des-Grès",
+							"styleUrl": "#icon-503-4186F0-labelson",
+							"Point": {
+								"coordinates": "-72.80038,46.43235,0"
+							}
+						},
+						{
+							"name": "363 St-Étienne (parc Réal st-Onge)",
+							"description": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/p4km939irt39rv7c9m376gsdcs/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaM_8H2UsmJn0EyHSEvI9G0J9WJNdk_BPUlirNETiBR2Q26u5Wcni8F7pC1x1WE8XUJHevvGJcTk2jMUnYQEsKaOGAXZocW13o_znNA02FBAMytdNcTjsStkJfxX1i_WrCP1qKgLn6BwWBVP4F1RGYe41vxirWJUtv5gP0nUSCakcv8FebsWiv3-JTz?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Parc Réal-Saint-Onge, Saint-Étienne-des-Grès",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/p4km939irt39rv7c9m376gsdcs/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaM_8H2UsmJn0EyHSEvI9G0J9WJNdk_BPUlirNETiBR2Q26u5Wcni8F7pC1x1WE8XUJHevvGJcTk2jMUnYQEsKaOGAXZocW13o_znNA02FBAMytdNcTjsStkJfxX1i_WrCP1qKgLn6BwWBVP4F1RGYe41vxirWJUtv5gP0nUSCakcv8FebsWiv3-JTz?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.77128,46.44281,0"
+							}
+						},
+						{
+							"name": "362 St-Étienne (Lucille)",
+							"description": "Sain-Étienne-des-Grès, Lucille",
+							"styleUrl": "#icon-503-3F5BA9-labelson",
+							"Point": {
+								"coordinates": "-72.75161,46.39112,0"
+							}
+						},
+						{
+							"name": "287 T-R (Forges St-Maurice)",
+							"description": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/g0bopuvsaqjbdaur9951h936bk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZT887WpTlfpk0JnaH5KLUHQ7jL6l9ROttW38GOWdXiHO3Gnu7axD-P3jOGzYF0GPcIzU6DcF2FaotLBpaYgyIGawaQ4_HkZK7-6WmrPmqKWks7fqDQnlpI_9Dzi5YJ1Hu9V9f1S7DSEWt4liHjZeJldyhcGsazg0JEcXqTT8b4TNMNgbPPnPA74qmn?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Vieilles-Forges-du-Saint-Maurice",
+							"styleUrl": "#icon-503-F4EB37-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/g0bopuvsaqjbdaur9951h936bk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZT887WpTlfpk0JnaH5KLUHQ7jL6l9ROttW38GOWdXiHO3Gnu7axD-P3jOGzYF0GPcIzU6DcF2FaotLBpaYgyIGawaQ4_HkZK7-6WmrPmqKWks7fqDQnlpI_9Dzi5YJ1Hu9V9f1S7DSEWt4liHjZeJldyhcGsazg0JEcXqTT8b4TNMNgbPPnPA74qmn?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.66125,46.39786,0"
+							}
+						},
+						{
+							"name": "054 T-R (Forest-Hill)",
+							"description": "<img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/o3fbevuv4uir9h1j2odrp4mv68/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbwcH-DhbL8kzVamq1lezHwjf6YOZSpDA8qfgMVohQIHdKVRi_HxX6omtxQprqgJPzJJW1QOfywm4iDXOqmanIMGDLjT4_wsv95TApO-e9Pbvw5wQSth9-rIkNmLxL6EmoQ8jY9ntBSKGG5YbpBF2U95SAWuKqxSvAPsje8O6m5JbgIw_R-7CA5l5hD?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Cimetière Forest-Hill",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/o3fbevuv4uir9h1j2odrp4mv68/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbwcH-DhbL8kzVamq1lezHwjf6YOZSpDA8qfgMVohQIHdKVRi_HxX6omtxQprqgJPzJJW1QOfywm4iDXOqmanIMGDLjT4_wsv95TApO-e9Pbvw5wQSth9-rIkNmLxL6EmoQ8jY9ntBSKGG5YbpBF2U95SAWuKqxSvAPsje8O6m5JbgIw_R-7CA5l5hD?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.57169,46.35009,0"
+							}
+						},
+						{
+							"name": "050 T-R (Ursulines)",
+							"description": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ctpn54jvgu0ssv23a7cq0genng/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbOocfIzPvRfkkg-6hg6Fb93hY9KQ38hYccO8CctQZR5RO39Nw5v1NxlWy1qIG_hrkY6qI3MX5lfrnZYL4wDS3F5ZweyXafZZb3VQZVleFMFaptF79_GVv8QMgazDJYc5gKkXgIgXG3IV_iMuFrzK99cX3yQTMZ-lmVUPXt7D7sWMDQHj7nu3UTh4iz?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Couvent des Ursulines",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ctpn54jvgu0ssv23a7cq0genng/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbOocfIzPvRfkkg-6hg6Fb93hY9KQ38hYccO8CctQZR5RO39Nw5v1NxlWy1qIG_hrkY6qI3MX5lfrnZYL4wDS3F5ZweyXafZZb3VQZVleFMFaptF79_GVv8QMgazDJYc5gKkXgIgXG3IV_iMuFrzK99cX3yQTMZ-lmVUPXt7D7sWMDQHj7nu3UTh4iz?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.53674,46.34398,0"
+							}
+						},
+						{
+							"name": "51 T-R Séminaire St-Joseph",
+							"description": "<img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/jk50kk8d76culdhqp1fobiob5s/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vawbbP0UxfX_1T7VUOrvWhMmfJiG-QPPg3nyxvF2y_dMtb2odzOkIe1OS2Cq-83P0aYTT05AXzS3G6bO1o8mug1zqHZ1tXLg9al0eifWpjdj2tsPuSZWHh8iox4bJK1cKqqFq08nectW7x1P_k4pC0xlEneS1XCt8JwFnAd99RDokG_JnA9PzNlGkJi?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Séminaire Saint-Joseph",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/jk50kk8d76culdhqp1fobiob5s/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vawbbP0UxfX_1T7VUOrvWhMmfJiG-QPPg3nyxvF2y_dMtb2odzOkIe1OS2Cq-83P0aYTT05AXzS3G6bO1o8mug1zqHZ1tXLg9al0eifWpjdj2tsPuSZWHh8iox4bJK1cKqqFq08nectW7x1P_k4pC0xlEneS1XCt8JwFnAd99RDokG_JnA9PzNlGkJi?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.54443,46.34813,0"
+							}
+						},
+						{
+							"name": "373 T-R pl G-Lambert",
+							"description": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/tqtvm9ipvrnmv1kqu56r4l28og/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va_rr5PT7KSscxqBXWoKVo4Ga6Ls-cxLws_qROshEiV7hE_yT93QHdgKbrD4TunFP-1WHvTRZB3IJZxGHOS-gcVTWUuS6pZ0ni_m5AFRHkJYvYzio6BbLWy1tToYY5YyXtSF8Ke04Mxodv9G9bUgxiIRtrZ2YKXb1md8qUMjqMFKvg-RuK_B4I7FyHX?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>J. G. Pl. G-Lambert",
+							"styleUrl": "#icon-503-3F5BA9-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/tqtvm9ipvrnmv1kqu56r4l28og/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va_rr5PT7KSscxqBXWoKVo4Ga6Ls-cxLws_qROshEiV7hE_yT93QHdgKbrD4TunFP-1WHvTRZB3IJZxGHOS-gcVTWUuS6pZ0ni_m5AFRHkJYvYzio6BbLWy1tToYY5YyXtSF8Ke04Mxodv9G9bUgxiIRtrZ2YKXb1md8qUMjqMFKvg-RuK_B4I7FyHX?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.58458,46.35074,0"
+							}
+						},
+						{
+							"name": "389 St-Prospère (Gélinas)",
+							"description": "<img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ohbco61kg1116cl8e5dtqp02ng/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaDN-O-XlhrGvx_2PF0wQfZ2tHLnNXL9E4ArPpw5J8gFYDgSO0azaOJAPwj1jZoDgo2ki0ZPs17t-2-WZqpIj3nP_HmlF6yvHmJBADC61knYQVuhFI9FoFxVmyeLL0Ex8rjd4SHvhXehrNjq44tYTK3PYdpIcpu8--6aPf5h2jrBpMMrDXD7m61H5Pr?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Gélinas",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ohbco61kg1116cl8e5dtqp02ng/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaDN-O-XlhrGvx_2PF0wQfZ2tHLnNXL9E4ArPpw5J8gFYDgSO0azaOJAPwj1jZoDgo2ki0ZPs17t-2-WZqpIj3nP_HmlF6yvHmJBADC61knYQVuhFI9FoFxVmyeLL0Ex8rjd4SHvhXehrNjq44tYTK3PYdpIcpu8--6aPf5h2jrBpMMrDXD7m61H5Pr?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.92106,46.37127,0"
+							}
+						},
+						{
+							"name": "395 T-R Fleuriste Cormier",
+							"description": "<img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/1vdm72rcm3t6kpjr2smrlebtgo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb7X_mTUshNtGrUm2jkAO_RnaasWU_lEFcGICbj1-1FYsC0HUHDxXTKYdwGA1XmrFGZqBWF8ZBgX6z0q6822q-kmWAsEf0jfxDl7U2q_sUs3HQ84tfDIUkPkrydxKw8IYhksfk13sjri9N5PcMdqH8Sb3IwyUA2NDFFOW1Zhf5ThHRv6LZAEIvQerh1?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/1vdm72rcm3t6kpjr2smrlebtgo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb7X_mTUshNtGrUm2jkAO_RnaasWU_lEFcGICbj1-1FYsC0HUHDxXTKYdwGA1XmrFGZqBWF8ZBgX6z0q6822q-kmWAsEf0jfxDl7U2q_sUs3HQ84tfDIUkPkrydxKw8IYhksfk13sjri9N5PcMdqH8Sb3IwyUA2NDFFOW1Zhf5ThHRv6LZAEIvQerh1?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.5790897,46.412086,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "ABTM / OUTA",
+					"Placemark": [
+						{
+							"name": "337 Guigues",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUFgCp6-sJ750RYBbOEpwe7FqZ9gAYrMSAEhWs8MhQaM_YRmxGDE69I0-EKLtcYiuyd2t4s3ARKqml4auXnjDvD9LoyS4c3pdUFZ4bD3Lc5Tb-QbaCnhzI4XiX5nizY9ycwBRbLKy2-yBmAAgw2bZ20InOTVa3sPrqdmA-yscQJO_4CPGzpNIyUIHpNZMsALHw\" height=\"200\" width=\"auto\" /><br><br>Saint-Bruno-de-Guigues, co Témiscamingue<br><br><img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/b344r2r2aahpfv93oe80upnts8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb7lQhVWlPmijTPRLQ1mrVvGTpLMf_yAkUjIQMerb3NRIhSfEwY_YiVq8KHOzMA0lVgg-KL4PmYye4FOnfr67N4NrwQPlYgw-uZIEMdjoMqFEXLPC56tAsKC8j8s1YYvL0u7eMZq2gbFk4MrtYLoQJxBTsOcB7lo_ED3DOSyecDuWBEmTVFfwHJOEbp?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUFgCp6-sJ750RYBbOEpwe7FqZ9gAYrMSAEhWs8MhQaM_YRmxGDE69I0-EKLtcYiuyd2t4s3ARKqml4auXnjDvD9LoyS4c3pdUFZ4bD3Lc5Tb-QbaCnhzI4XiX5nizY9ycwBRbLKy2-yBmAAgw2bZ20InOTVa3sPrqdmA-yscQJO_4CPGzpNIyUIHpNZMsALHw https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/b344r2r2aahpfv93oe80upnts8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb7lQhVWlPmijTPRLQ1mrVvGTpLMf_yAkUjIQMerb3NRIhSfEwY_YiVq8KHOzMA0lVgg-KL4PmYye4FOnfr67N4NrwQPlYgw-uZIEMdjoMqFEXLPC56tAsKC8j8s1YYvL0u7eMZq2gbFk4MrtYLoQJxBTsOcB7lo_ED3DOSyecDuWBEmTVFfwHJOEbp?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-79.4378686,47.4649207,0"
+							}
+						},
+						{
+							"name": "336 Montebello",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUEOLI_Ki1CboFvbF54o2NYR-Jr-09Mn6GiLgSbZLwJaKbkoQgQ1JN7fsEkzQxSDSgIMesMgeLqqoUGcUwzFl94Wdq71cWhCFd6ve0z3fOFUYDblMg2lQK6JcvOLK5b6PvV72mZol_cgO76nlHAOicXVgk7HpGGRS0q5vBdNoUgAem0v2Fa8-18_f3W2jL9C1w\" height=\"200\" width=\"auto\" /><br><br>Paroisse Notre-Dame-du-bon-Secour<br><br><img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/da547v3s8h1510nck4v1vp712c/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaqQHTFU-inBeN8UEROrgwbvs51IzfzwJVyxGf5fa2YENWUQNzQQYdblUgAUDiJKGxyXH7vg-MZWSy_KFwBVp4i-ki1KaaZIjqB2-pxmygY0tDuZEN5iE785fKM4YH4qgrWTpOo8VwIQV2no3nFLrewlPCXQEYg58lBhuOIPGTk98kZ-IGxr4CVrhez?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/drnssfp7ic615hfuhvqr9ige80/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZL448UdytIpO-PLvHf_aP_pykkRFTAUa7FmrehNPKsPLmQrY_1uYZ-vWvQeGLMkEnij84TjLr_HAKFtX_iIzfIuRNh9epSmZKDlp5flrXwxHOhRfYfcxfnnwVijvgGBlACKCzo74i3Ws0AuFuk7Oi2iG_coMfjnjKASoIglP5OKJsZEKAguw3ggbg_?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUEOLI_Ki1CboFvbF54o2NYR-Jr-09Mn6GiLgSbZLwJaKbkoQgQ1JN7fsEkzQxSDSgIMesMgeLqqoUGcUwzFl94Wdq71cWhCFd6ve0z3fOFUYDblMg2lQK6JcvOLK5b6PvV72mZol_cgO76nlHAOicXVgk7HpGGRS0q5vBdNoUgAem0v2Fa8-18_f3W2jL9C1w https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/da547v3s8h1510nck4v1vp712c/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaqQHTFU-inBeN8UEROrgwbvs51IzfzwJVyxGf5fa2YENWUQNzQQYdblUgAUDiJKGxyXH7vg-MZWSy_KFwBVp4i-ki1KaaZIjqB2-pxmygY0tDuZEN5iE785fKM4YH4qgrWTpOo8VwIQV2no3nFLrewlPCXQEYg58lBhuOIPGTk98kZ-IGxr4CVrhez?session=0&fife https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/drnssfp7ic615hfuhvqr9ige80/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZL448UdytIpO-PLvHf_aP_pykkRFTAUa7FmrehNPKsPLmQrY_1uYZ-vWvQeGLMkEnij84TjLr_HAKFtX_iIzfIuRNh9epSmZKDlp5flrXwxHOhRfYfcxfnnwVijvgGBlACKCzo74i3Ws0AuFuk7Oi2iG_coMfjnjKASoIglP5OKJsZEKAguw3ggbg_?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-74.9392904,45.6502546,0"
+							}
+						},
+						{
+							"name": "368 Papineauville",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUH5fpvEGzmrSwPcwVsg64OMeKOdrWBvSqrmpEnv8jeK4GQ1OKJ14j5tr1I47AXsisWB4Fm4R-DnS73Ho33BRaxK4bBTagnckn5-Jt41Rb6jKrAqhluURsoGq4Ts5QXTu3dqNfX5XzgJQEeC6onaTGNeUJD1DrdeSRC8g45CwDQMSuuQOTzds-mYO4eFt_YktA\" height=\"200\" width=\"auto\" /><br><br>À l'Est de Papineauville sur la 148, près du chemin Asa Cooke<br><br><img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/8brtmjesb6cs73gsmirs532kns/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbCnz3n5r_C9IikRi4LD0wCWI3KgzRYdIeGfNX8X0A0029S5HlxoBZfLhtJW_6GS2KpxseKe-PCkoRT9G9Z9V405MGNFAXf9_zseNLn6VxEvD7lA6D_sNJ-8J4P9CXSjEl6i08z8YVjXT9zwqboEaD-g2OefYseMm-pf5kFRdZBHejWzYJPBsPvYITO?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/q5bff3v2ko6n59ts14om8ipv58/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYSe4wHVfhe5VFQ7cuJQYQhmZRVbV5GIBjtIFwbyUfWjMv_IL9dWFldMBkMYb3uWQEG4Y5R2dAwKIz88aoraDEQV1EB4ZQfmnMV6v_lIKXwwsfmNLo1y5rcOAAExi5bj25xVsLiqrfr_gQwfyPLa5u_XaQXc4_BoSbFplJ-OnU-FWveLpVOMRJAMlJt?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUH5fpvEGzmrSwPcwVsg64OMeKOdrWBvSqrmpEnv8jeK4GQ1OKJ14j5tr1I47AXsisWB4Fm4R-DnS73Ho33BRaxK4bBTagnckn5-Jt41Rb6jKrAqhluURsoGq4Ts5QXTu3dqNfX5XzgJQEeC6onaTGNeUJD1DrdeSRC8g45CwDQMSuuQOTzds-mYO4eFt_YktA https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/8brtmjesb6cs73gsmirs532kns/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbCnz3n5r_C9IikRi4LD0wCWI3KgzRYdIeGfNX8X0A0029S5HlxoBZfLhtJW_6GS2KpxseKe-PCkoRT9G9Z9V405MGNFAXf9_zseNLn6VxEvD7lA6D_sNJ-8J4P9CXSjEl6i08z8YVjXT9zwqboEaD-g2OefYseMm-pf5kFRdZBHejWzYJPBsPvYITO?session=0&fife https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/q5bff3v2ko6n59ts14om8ipv58/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYSe4wHVfhe5VFQ7cuJQYQhmZRVbV5GIBjtIFwbyUfWjMv_IL9dWFldMBkMYb3uWQEG4Y5R2dAwKIz88aoraDEQV1EB4ZQfmnMV6v_lIKXwwsfmNLo1y5rcOAAExi5bj25xVsLiqrfr_gQwfyPLa5u_XaQXc4_BoSbFplJ-OnU-FWveLpVOMRJAMlJt?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-75.000127,45.6202697,0"
+							}
+						},
+						{
+							"name": "143 à 147 Gatineau",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUGIO5w52BemrkjPFlqHBRIXm5v2YyXK6s3uxYOYKqIC8DT19wVzhOqaWLFfzwJMcyRp1yV0pFOlZQK-65Rb19_3IslhjjiuN7_ojI9N_2b-Bgpzv_ZgOD9lXCKyc2eDeJyeCBPaiOC5rb4CnPR2vOB2X5rN9OeEInGnuvpAQcH3FoyVHRvYORCBUv7lAgeryg\" height=\"200\" width=\"auto\" /><br><br>Musée Canadien de l'histoire",
+							"styleUrl": "#icon-503-F4EB37-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUGIO5w52BemrkjPFlqHBRIXm5v2YyXK6s3uxYOYKqIC8DT19wVzhOqaWLFfzwJMcyRp1yV0pFOlZQK-65Rb19_3IslhjjiuN7_ojI9N_2b-Bgpzv_ZgOD9lXCKyc2eDeJyeCBPaiOC5rb4CnPR2vOB2X5rN9OeEInGnuvpAQcH3FoyVHRvYORCBUv7lAgeryg",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-75.7091796,45.4304808,0"
+							}
+						},
+						{
+							"name": "223 Parc Ste-Thérèse",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUGDrNX_RvYJ5yQ8DkzBJhxa8Q1L52BL2xU6-NTxBbwx-2ArT2SxWtb2PyjP0Mn0aI9lcHfD92NfOQzo1W-xiBBQ983tqFyba3GDV8ErG_z7OBe-UwEZ8h-LYDnzM16L1BwEEOOBwcYGtlXF_nggDwZwqCEnnFVlI_HncralLHZdOSidaQf2DviZ0U8SjxJDJA\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/dmcc14hlu28mjq6aa12rm6e5eo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va0cx9NKDF9r_gWHF4TfWbb8gELqLuYsxa6m5uMqTTNFqRtyADkrwbsp_KSKPDA36GJmRArItETc0_TpfGyE5lThx9Ks98Ki6VFEcqXOfU_ZaSw3r9mxwGV4ZHl7ZhqAf8oHrDEVLJ1mx5GLGTRdmIYYet0DkaWgRP1_eHc8R40J4g9toJpbA0GUNQU?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUGDrNX_RvYJ5yQ8DkzBJhxa8Q1L52BL2xU6-NTxBbwx-2ArT2SxWtb2PyjP0Mn0aI9lcHfD92NfOQzo1W-xiBBQ983tqFyba3GDV8ErG_z7OBe-UwEZ8h-LYDnzM16L1BwEEOOBwcYGtlXF_nggDwZwqCEnnFVlI_HncralLHZdOSidaQf2DviZ0U8SjxJDJA https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/dmcc14hlu28mjq6aa12rm6e5eo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va0cx9NKDF9r_gWHF4TfWbb8gELqLuYsxa6m5uMqTTNFqRtyADkrwbsp_KSKPDA36GJmRArItETc0_TpfGyE5lThx9Ks98Ki6VFEcqXOfU_ZaSw3r9mxwGV4ZHl7ZhqAf8oHrDEVLJ1mx5GLGTRdmIYYet0DkaWgRP1_eHc8R40J4g9toJpbA0GUNQU?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-75.7534575,45.4228382,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Québec / Charlevoix",
+					"Placemark": [
+						{
+							"name": "322 Ste-Foy",
+							"description": "<img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/k4s22ts0cgbgkesrbn0v2c4nbc/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZ4fTyMa8LFjSP30HrOZJ7jGhHWgF1xUCdY3Mwrn8cfZrmUcEopOoauYXaShdYeSwm2rESlsJHGHotSigHu0hB1jT8u1bnuq5H_GQ9aO2mKnyY6pc1gD-96dv0dMhf-O_k-P7wcJ5eorP6hN0AiPQyvxVXRfRGBmdj2Z8j-n1dJ-YVRpQdtApvFNHBU?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Centre Cloutier, complexe funéraire",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/k4s22ts0cgbgkesrbn0v2c4nbc/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZ4fTyMa8LFjSP30HrOZJ7jGhHWgF1xUCdY3Mwrn8cfZrmUcEopOoauYXaShdYeSwm2rESlsJHGHotSigHu0hB1jT8u1bnuq5H_GQ9aO2mKnyY6pc1gD-96dv0dMhf-O_k-P7wcJ5eorP6hN0AiPQyvxVXRfRGBmdj2Z8j-n1dJ-YVRpQdtApvFNHBU?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-71.407941,46.8108106,0"
+							}
+						},
+						{
+							"name": "017 Collège François-de-Laval",
+							"description": "<img src=\"https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/vloe08bt6h20s31fcq2apc42m4/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaMR0-RzRUVjv9L4ZXX4w8CqKSJIUdvDo40K5kXwQzK80IwLPJVjyk2jB5CJ5K9LjxEqxrr2ryPiZ6QeF77UMU719vvduvnM7CZqj094qsRU70EsSm5FMuNaHxAJNLJvQoEM5lLF6xkWj_7xjMuPceNFJhZPMmWO3r3ny5EHYxHaZEZwH5D7Km5blw6?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Petit Séminaire de Québec",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/vloe08bt6h20s31fcq2apc42m4/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaMR0-RzRUVjv9L4ZXX4w8CqKSJIUdvDo40K5kXwQzK80IwLPJVjyk2jB5CJ5K9LjxEqxrr2ryPiZ6QeF77UMU719vvduvnM7CZqj094qsRU70EsSm5FMuNaHxAJNLJvQoEM5lLF6xkWj_7xjMuPceNFJhZPMmWO3r3ny5EHYxHaZEZwH5D7Km5blw6?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-71.2055988,46.8154207,0"
+							}
+						},
+						{
+							"name": "025  Université Laval",
+							"description": "<img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/c2r99e070nkuh5dio370ll1ij8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZGJxLp_oXzfaR-kuD2ybXVuPUqJgK61mGzO6m7hYpHm4IxzyseBjaY_jaApbitHPSnuIOI5k9_Xh_g85drqMviVTdtxNTJghUuMVogfIajg7zvmy-P874w77gyWDF5SqNqUuQ3OvURZ64c1H6M0jHq-oc70-nwyAPq_6FyfWMTpglhPB8VUGTYjBKY?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Au centre du complexe",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/c2r99e070nkuh5dio370ll1ij8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZGJxLp_oXzfaR-kuD2ybXVuPUqJgK61mGzO6m7hYpHm4IxzyseBjaY_jaApbitHPSnuIOI5k9_Xh_g85drqMviVTdtxNTJghUuMVogfIajg7zvmy-P874w77gyWDF5SqNqUuQ3OvURZ64c1H6M0jHq-oc70-nwyAPq_6FyfWMTpglhPB8VUGTYjBKY?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-71.2747424,46.7817463,0"
+							}
+						},
+						{
+							"name": "026  Boulevard Masson",
+							"description": "<img src=\"https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/92f5emjimq0g6p2km3qldkc1ho/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbGw_aTmqZanhXljpiRWbLQfT9g0DyfkiD3UQJhRUcy2usTQ8plh_R1cAIUBvVf-MFzrobiKMxsA6CXl1fusN4RV_cIc1fEwrlUegz_j64RNexnwHLiWIDsfl0JnaR5-S3FSTD_12mWtJpZmx8eQto1qOTDfPur9k8P_7A2jk-_k7oIUEga92cNktvR?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Bibliothèque Les Saules",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/92f5emjimq0g6p2km3qldkc1ho/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbGw_aTmqZanhXljpiRWbLQfT9g0DyfkiD3UQJhRUcy2usTQ8plh_R1cAIUBvVf-MFzrobiKMxsA6CXl1fusN4RV_cIc1fEwrlUegz_j64RNexnwHLiWIDsfl0JnaR5-S3FSTD_12mWtJpZmx8eQto1qOTDfPur9k8P_7A2jk-_k7oIUEga92cNktvR?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-71.317828,46.807398,0"
+							}
+						},
+						{
+							"name": "232  Boulevard Henri-Bourassa",
+							"description": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/6c3ll83u7g8o6hbg7vnjmj8t04/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbdL-aDwXelSUf3TPYhJROimN3-8ujw_p5meP8T24uRKiS7Xus5ibB6xXtluDjfVXxLxlBBY2_JCncxBoqFUQPS0ODEUyDEJbDRxxH23qh6Yqcxlpz3MQXS4G7VmjYmISs1fw9QaqbWlYMr1JXXThzFhrEI5wdh4GmL7Sumfirc27WTcm4xvu6AAGw5?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Moulin des Jésuites, Charlesbourg",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/6c3ll83u7g8o6hbg7vnjmj8t04/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbdL-aDwXelSUf3TPYhJROimN3-8ujw_p5meP8T24uRKiS7Xus5ibB6xXtluDjfVXxLxlBBY2_JCncxBoqFUQPS0ODEUyDEJbDRxxH23qh6Yqcxlpz3MQXS4G7VmjYmISs1fw9QaqbWlYMr1JXXThzFhrEI5wdh4GmL7Sumfirc27WTcm4xvu6AAGw5?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-71.266976,46.8621661,0"
+							}
+						},
+						{
+							"name": "343 Port de Québec",
+							"description": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/5upsfaibronacpfbvimihk84e0/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaYud5XR8qruEdXqslAWgR83ZjUBSz_JAvrD33AG2YiEiDxpY50Itc5We4Lf4PFgFV25JOHpVC5KXPD9Oo0NDj8qVAzOxSHlMHhtGygm3UXNbg1a0ywRN_U6UJXMatnlTYHpsswl1kbsHj3Be5uSjXW9TS7GWlF9SnMwz7kykAHjzjmE3L09T7s64Or?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Pointe -à-Carcy, près de l'Agora",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/5upsfaibronacpfbvimihk84e0/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaYud5XR8qruEdXqslAWgR83ZjUBSz_JAvrD33AG2YiEiDxpY50Itc5We4Lf4PFgFV25JOHpVC5KXPD9Oo0NDj8qVAzOxSHlMHhtGygm3UXNbg1a0ywRN_U6UJXMatnlTYHpsswl1kbsHj3Be5uSjXW9TS7GWlF9SnMwz7kykAHjzjmE3L09T7s64Or?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-71.2015557,46.8176188,0"
+							}
+						},
+						{
+							"name": "387 École Montessori",
+							"description": "1265 ave du Buisson, Sillery",
+							"styleUrl": "#icon-503-3F5BA9-labelson",
+							"Point": {
+								"coordinates": "-71.2568012,46.7797691,0"
+							}
+						},
+						{
+							"name": "285 Île-d'Orléans",
+							"description": "Chez René Paquet",
+							"styleUrl": "#icon-503-3F5BA9-labelson",
+							"Point": {
+								"coordinates": "-70.9357113,46.902001,0"
+							}
+						},
+						{
+							"name": "257 Sillery",
+							"description": "Musée Maison des Jésuites",
+							"styleUrl": "#icon-503-F4EB37-labelson",
+							"Point": {
+								"coordinates": "-71.2579773,46.768495,0"
+							}
+						},
+						{
+							"name": "018.019,020 Musée de l'Amérique francophone",
+							"styleUrl": "#icon-503-F4EB37-labelson-nodesc",
+							"Point": {
+								"coordinates": "-71.20659,46.8140955,0"
+							}
+						},
+						{
+							"name": "024 Plaines d'Abraham",
+							"description": "<img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/f3j0j5iq29k65vo3aa9ve5qlkg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vafarSt2Tetvi47bP36x3U9i_uK6RT6XajK2qTVXG-JmS04cmI486RZwDBho3vlO_ttxglmuIFEImFigoEIRzEQKHvbM1agjBzFCAjV_QD4EZ6jk9lnThxM9jdrIPjs04qOHV1eE0hlVFpavC3rIQTjPsTf5G8QTh_L-roRogODzhpetdJZbVxQ9aVv?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/f3j0j5iq29k65vo3aa9ve5qlkg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vafarSt2Tetvi47bP36x3U9i_uK6RT6XajK2qTVXG-JmS04cmI486RZwDBho3vlO_ttxglmuIFEImFigoEIRzEQKHvbM1agjBzFCAjV_QD4EZ6jk9lnThxM9jdrIPjs04qOHV1eE0hlVFpavC3rIQTjPsTf5G8QTh_L-roRogODzhpetdJZbVxQ9aVv?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-71.2206852,46.7999419,0"
+							}
+						},
+						{
+							"name": "007 Église de Baie-St-Paul",
+							"description": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/rhd7lp6lca0v50dbvdaegjd0uo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va2VBEmoaC2DKcNNYaau0q3zvFTm005BXb1eW3SW9gf2tkB3JoGa3u_eMIzGF933mK6QmBBdAZkiiEGMdQhDmzC4YdQxbgWwGfICx1DFQd5wlBMdhMRK8UrIftfYq1iZM35XJkL4gbWZZm5Eb4iQ4Z6DZDdhMxwcANoHFPWY-NboM0AEeM8rpKnS17B?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>15 rue Forget Baie-Saint-Paul",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/rhd7lp6lca0v50dbvdaegjd0uo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va2VBEmoaC2DKcNNYaau0q3zvFTm005BXb1eW3SW9gf2tkB3JoGa3u_eMIzGF933mK6QmBBdAZkiiEGMdQhDmzC4YdQxbgWwGfICx1DFQd5wlBMdhMRK8UrIftfYq1iZM35XJkL4gbWZZm5Eb4iQ4Z6DZDdhMxwcANoHFPWY-NboM0AEeM8rpKnS17B?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-70.5085856,47.4421192,0"
+							}
+						},
+						{
+							"name": "008 Pte-Franciscaines",
+							"description": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/jc5ecqr72in9614ri9oor1fqi0/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaEI3kyN3VpOXG_DAUAHhktoffpnMWjoyM_TCBTe-qKlyERK8Uc9HvCR87OJuHlANSBzdrA-RFT2IImNrL8h9BOoIXEaST6dBoieJqSTke1s6Scau1cvRJ1oB1Qg83fr-kA8UIlOhb-ibkrzafAuyAgIIDDssHA4zXgIe8CV57ubEGMzXi7R_8KR4Kk?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>10 rue Ambroise Fafard, Baie-Saint-Paul",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/jc5ecqr72in9614ri9oor1fqi0/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaEI3kyN3VpOXG_DAUAHhktoffpnMWjoyM_TCBTe-qKlyERK8Uc9HvCR87OJuHlANSBzdrA-RFT2IImNrL8h9BOoIXEaST6dBoieJqSTke1s6Scau1cvRJ1oB1Qg83fr-kA8UIlOhb-ibkrzafAuyAgIIDDssHA4zXgIe8CV57ubEGMzXi7R_8KR4Kk?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-70.5066812,47.4383929,0"
+							}
+						},
+						{
+							"name": "014 Auberge nos Aieux",
+							"description": "<img src=\"https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/tiga9nefk737benlv4njvvlhlc/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vajjoIHk2gQPH6rPxHUnlrLlGjHintBb4e7DHts0ul5kcLRrs64t1Q_vcIh5JORlawaYeNO3RmAKA9VFZNT6DVk0AfGas0B_L1HiwNdL9vjF8gwAK_PgEoTxt1FzgBeNV065DWoKO1qSMRP7bo1FIOHYuKOoeG2Zfa6b4tuh9Lrce9T3ZiQp4gDe0fl?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>183 rue du village, Les Éboulements",
+							"styleUrl": "#icon-503-F9F7A6-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/tiga9nefk737benlv4njvvlhlc/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vajjoIHk2gQPH6rPxHUnlrLlGjHintBb4e7DHts0ul5kcLRrs64t1Q_vcIh5JORlawaYeNO3RmAKA9VFZNT6DVk0AfGas0B_L1HiwNdL9vjF8gwAK_PgEoTxt1FzgBeNV065DWoKO1qSMRP7bo1FIOHYuKOoeG2Zfa6b4tuh9Lrce9T3ZiQp4gDe0fl?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-70.2970344,47.4887817,0"
+							}
+						},
+						{
+							"name": "233 Saint-Fidèle",
+							"description": "<img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ttqpl3g3dnpbqutagksfgvi978/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYG4xaQmnhTY-tmR_HLQvXX--1yYfI-0losammHfsf6sgdvwTPEPUvtrSqTsjgCXpOB0X5K3u_I2UkVgMRNrUKOMVXI9-AGZxtTAPYjRWgwAuF2gczEu8LmkdOLi7hhbZdTTH5FUXyJ6VC_vHBKuKQOwbXjBdBaEKbAlaf6DikP46k4aA9y_O9BrDy2?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>82 rue principale ",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ttqpl3g3dnpbqutagksfgvi978/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYG4xaQmnhTY-tmR_HLQvXX--1yYfI-0losammHfsf6sgdvwTPEPUvtrSqTsjgCXpOB0X5K3u_I2UkVgMRNrUKOMVXI9-AGZxtTAPYjRWgwAuF2gczEu8LmkdOLi7hhbZdTTH5FUXyJ6VC_vHBKuKQOwbXjBdBaEKbAlaf6DikP46k4aA9y_O9BrDy2?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-69.9949801,47.7377829,0"
+							}
+						},
+						{
+							"name": "234 Gomme de pin",
+							"description": "<img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/77c0jcdg3umlieum3ogef8erhg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbTlNg31c4cyiPiI5e2mozocodq0_7WPiX3ffLEhmmINzSwlYcUpkYKhzbgJPJhs7YkoB7u8qKcdYYiFaNp3-y22IgCZAuFElIlM0p8htbceMu0jzcIHEYAJBuVpk_Tz285IL9bUma2crdtqz_PF9eUfK36uqAUxav5XVRg6GMLuVKN4DSSZnpI8BQX?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>134 Rue Saint Jean Baptiste",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/77c0jcdg3umlieum3ogef8erhg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbTlNg31c4cyiPiI5e2mozocodq0_7WPiX3ffLEhmmINzSwlYcUpkYKhzbgJPJhs7YkoB7u8qKcdYYiFaNp3-y22IgCZAuFElIlM0p8htbceMu0jzcIHEYAJBuVpk_Tz285IL9bUma2crdtqz_PF9eUfK36uqAUxav5XVRg6GMLuVKN4DSSZnpI8BQX?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-70.5094685,47.4447024,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Montérégie/Estrie",
+					"Placemark": [
+						{
+							"name": "058 Musée-Colby-Curtis",
+							"description": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ngc8gv83aeiluj94pvmss1vjq8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYsotz1IpkTN_g7FGvZjN39c3S-E0nuTi3TXfPptue2MHcJINbqm7frG2YM8DHK4dr_p0DmNidDjyXfDXcCWrbfIcEPhHAbycxBTkPjiIaXw7AAUjFVXBW320uns-rQ5xOsnADQMBIKj8HSxF1PN4Gz8d0GkQEnqEAWgghX3PleQEiggqkNgoXLwVZr?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>535 Rue Dufferin Stanstead",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ngc8gv83aeiluj94pvmss1vjq8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYsotz1IpkTN_g7FGvZjN39c3S-E0nuTi3TXfPptue2MHcJINbqm7frG2YM8DHK4dr_p0DmNidDjyXfDXcCWrbfIcEPhHAbycxBTkPjiIaXw7AAUjFVXBW320uns-rQ5xOsnADQMBIKj8HSxF1PN4Gz8d0GkQEnqEAWgghX3PleQEiggqkNgoXLwVZr?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.0936708,45.0162616,0"
+							}
+						},
+						{
+							"name": "278 Eastman",
+							"description": "<img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/v5v8qs1it4u5mg41q1pusokggg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZQAdoE57I1xb7mk-Ij65zLgDgzetUgZx4S9OaMln-YAaNgvM0t4XunC_RAQfZcyACC6RH0NtUB3bEKID5KNjh8KJZTbdlD8BWJAMgVsqOPYG00LZ18nzCpDZUV7xk8dbmXLG9nzOcKjOHRPbOA_yWF_3IaiAAxnNzstlo3qmBrFLbr40tRY_aKAR0f?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Arrière bur de poste, 376 Rue Principale",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/v5v8qs1it4u5mg41q1pusokggg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZQAdoE57I1xb7mk-Ij65zLgDgzetUgZx4S9OaMln-YAaNgvM0t4XunC_RAQfZcyACC6RH0NtUB3bEKID5KNjh8KJZTbdlD8BWJAMgVsqOPYG00LZ18nzCpDZUV7xk8dbmXLG9nzOcKjOHRPbOA_yWF_3IaiAAxnNzstlo3qmBrFLbr40tRY_aKAR0f?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.3174218,45.301639,0"
+							}
+						},
+						{
+							"name": "283 Mont-Mégantic",
+							"description": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/bu056fpi5eo5t8no1nkt665afc/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va7mLVaZOZyEslayKGn7E1TpV3Al40gnDlS8mQHIf7DgD4oBHu4abCMlebnB4idqbJbA1ce_9cpY2UR428P9vKsPzImJ1H56m93sVJDMoOZBUkP3TyL9fcGFsDsQjc7Irx5rhXbteWg0sOdZmgzAAuiFpgq1GXt9U4r6NLLpQdI9q_wwm1dNO61MScY?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>189 Route du Parc",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/bu056fpi5eo5t8no1nkt665afc/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va7mLVaZOZyEslayKGn7E1TpV3Al40gnDlS8mQHIf7DgD4oBHu4abCMlebnB4idqbJbA1ce_9cpY2UR428P9vKsPzImJ1H56m93sVJDMoOZBUkP3TyL9fcGFsDsQjc7Irx5rhXbteWg0sOdZmgzAAuiFpgq1GXt9U4r6NLLpQdI9q_wwm1dNO61MScY?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-71.1259441,45.4232593,0"
+							}
+						},
+						{
+							"name": "347 Knowlton",
+							"description": "<img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/m6a6lda2o8m1km6a3kd3ngh53o/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vY5xy4abpxLq30B9-SY2acV9-FURDDyFw6tFUoVs7j-BKvC5pT9brbDFyh39vZNwlkaBtPzPlLXkvU-g1dOH4DEXGpYLz1-8v3I9NT1EG7CzTc-PhrZUk4Llkf9tNortZQnfcu50ME3sQ7-kVd-7FmfiJGVdEQjlMvhG27aHcDh4LbCTfRPmnTXEI8q?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>11 Rue Grove",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/m6a6lda2o8m1km6a3kd3ngh53o/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vY5xy4abpxLq30B9-SY2acV9-FURDDyFw6tFUoVs7j-BKvC5pT9brbDFyh39vZNwlkaBtPzPlLXkvU-g1dOH4DEXGpYLz1-8v3I9NT1EG7CzTc-PhrZUk4Llkf9tNortZQnfcu50ME3sQ7-kVd-7FmfiJGVdEQjlMvhG27aHcDh4LbCTfRPmnTXEI8q?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.500596,45.2253269,0"
+							}
+						},
+						{
+							"name": "385 Lac-Mégantic",
+							"description": "<img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/5tjksoukpfplaht5qg6i1enoco/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZQ4suX-xr1zttbQY-YVo_OZXkh0AaixcjfTGfvlbDaFVeWO-PuU5vIzwAK3esv8PCpF2wjbpuCaTOJEyvPdRRm8qBdMiETIhnT6KtFA1MYAgX8qru7h23G6HM1rScVMnWW7WcIBJpPe75XvNH72kfKMAvW_1iXdLBE6fgeKdi-IBzW9hN6cCoJPZpN?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Parc des bénévoles",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/5tjksoukpfplaht5qg6i1enoco/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZQ4suX-xr1zttbQY-YVo_OZXkh0AaixcjfTGfvlbDaFVeWO-PuU5vIzwAK3esv8PCpF2wjbpuCaTOJEyvPdRRm8qBdMiETIhnT6KtFA1MYAgX8qru7h23G6HM1rScVMnWW7WcIBJpPe75XvNH72kfKMAvW_1iXdLBE6fgeKdi-IBzW9hN6cCoJPZpN?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-70.8819973,45.5735875,0"
+							}
+						},
+						{
+							"name": "388 Woburn",
+							"description": "<img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/kaaphe7nhogbbhvkm7md5056lk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaUwe3rHH7FmzlZYct2OB9VOdOdhV3tVNghp7MFgvkHlfJJu_KgP4gaUdQ2GuXpn2NsfOyV7mNSMZd0wI6GpVvIAD9TXKB0ES_hgf2mRejS7XWp0nXStUbHHBiMa9Df-9j7OI-0WTMYpAoUqhFK09B2xoYUkMsm6t_GZEhhgW2MwTDQqxKRZ0lGcUSh?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Saint-Augustin de Woburn",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/kaaphe7nhogbbhvkm7md5056lk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaUwe3rHH7FmzlZYct2OB9VOdOdhV3tVNghp7MFgvkHlfJJu_KgP4gaUdQ2GuXpn2NsfOyV7mNSMZd0wI6GpVvIAD9TXKB0ES_hgf2mRejS7XWp0nXStUbHHBiMa9Df-9j7OI-0WTMYpAoUqhFK09B2xoYUkMsm6t_GZEhhgW2MwTDQqxKRZ0lGcUSh?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-70.8705711,45.3986157,0"
+							}
+						},
+						{
+							"name": "074 Fort-Lennox",
+							"description": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/g4rr860slhhithp1d2n7pemtac/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vax2zcR8GDGlFTzcnKJRB9e2RyHW6IpkSvaOUXchu64xwEA5yvQftzOK_ljpmEBYQMOBrHlt7-a2vH1Jwz5uXyzNd4qEvrVDwRbndgrsrMshvhueayosaBOsVPhvM2AWblG8lXnoDpd9j3Gh9e5GgsE3jOn1re8D9N6I6Ao18P7GxQ7lmcLll9VClD7?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Fort Lennox National Historic Site",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/g4rr860slhhithp1d2n7pemtac/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vax2zcR8GDGlFTzcnKJRB9e2RyHW6IpkSvaOUXchu64xwEA5yvQftzOK_ljpmEBYQMOBrHlt7-a2vH1Jwz5uXyzNd4qEvrVDwRbndgrsrMshvhueayosaBOsVPhvM2AWblG8lXnoDpd9j3Gh9e5GgsE3jOn1re8D9N6I6Ao18P7GxQ7lmcLll9VClD7?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.265334,45.1190691,0"
+							}
+						},
+						{
+							"name": "161 Boucherville",
+							"description": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/l9l37dgqpbe3ullsdkivd1v4ec/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbMgF48wJNEssT_CQPVlm613Md4z4_1s38xPPSRNZTR5gOzGgo_S5Pd2gEfUdcO_d5QQSTjV-K6SEUpm1l8b_0dw9K1rHojAPFhlajrxtGDp2h7QEQ_hgCSY0bJg1A9fcitqDx5C8FvSvxQvGFZ-ndMU-ueji-LyqOosWmf8dD__KU-9QpYz1XUkoel?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>330 Rue de Normandie",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/l9l37dgqpbe3ullsdkivd1v4ec/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbMgF48wJNEssT_CQPVlm613Md4z4_1s38xPPSRNZTR5gOzGgo_S5Pd2gEfUdcO_d5QQSTjV-K6SEUpm1l8b_0dw9K1rHojAPFhlajrxtGDp2h7QEQ_hgCSY0bJg1A9fcitqDx5C8FvSvxQvGFZ-ndMU-ueji-LyqOosWmf8dD__KU-9QpYz1XUkoel?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.431159,45.5801571,0"
+							}
+						},
+						{
+							"name": "171 Parc Michel Chartrand",
+							"description": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/2brh1n9b6c41rnrplekoead0mg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb5SXqp9a8R6yBW1ubsHUMc6j-SRUeiXFlfEPS-b6OivtCtYrATUlQZyz6mN5AAWElv6E07K35zPisq6xcuAb-NQUcDKwOBqM7l5DN7lMesAzzTeKcsrrq9FNaHbsQyUb1WS0fVlLI0IknRRxeZYhxwp6MNiHcE5axGBcZ2j_YtRt-cWgOm0EzTVv6G?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Longueuil",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/2brh1n9b6c41rnrplekoead0mg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb5SXqp9a8R6yBW1ubsHUMc6j-SRUeiXFlfEPS-b6OivtCtYrATUlQZyz6mN5AAWElv6E07K35zPisq6xcuAb-NQUcDKwOBqM7l5DN7lMesAzzTeKcsrrq9FNaHbsQyUb1WS0fVlLI0IknRRxeZYhxwp6MNiHcE5axGBcZ2j_YtRt-cWgOm0EzTVv6G?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.4715467,45.5436298,0"
+							}
+						},
+						{
+							"name": "240 Beauharnois",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUG6nCkbFTcHEbvDMk8wdjX1-OIf1mWDnDG4wHgO4GT4ukGlfBUknC-bPFzLFzPSEuSbZVIUsYEEMDNee6T_sB4jy2HFIWkIcKfhodGzET5Mtxib0Lv8z98JVMj-AC7kVgjdjNKiuMoJa827R6gKj766leb7FN43A-13P01U2J2amrR3_4H8SarIozDOtk7TkA\" height=\"200\" width=\"auto\" /><br><br>Centre de formation professionnelle<br><br><img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/mag9sslkf111cliu2fh1rejgmg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYTe4lrw28gfKMeoZaJcq5BDyPbH502-W2HNVmARKYaFJeiw02dY-hmItXpwDuIZm2aQXIe7A79_TDsTVY33gaTyd5NdIfLYUiVEbiYybnJYqvP5H-3d5cAXjlZ1Y6WIcpsNiYakLJdf_nZPiOM4hDjZ2ec1XmM5sBHgOy3I6GpQwxpuTVk7wS63Sm5?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/oknd0pt9s85d348bo0vsjg0ddg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaTQESHzNVmmb9V1aNiI56ZdX4XKOfxrCRr3evY8_GqugFHbKBLxYkxeOtQ54EkLxvBb2Xtyzavh9SYGwS7mfTcTxQ8Fy9oNmt_81SLtW2VTEldTzBqxPN1ssSB0f1bjS0yN5RzR22bufmcgD9OIx-fH_-DXXg7DQwuCoCfU-0MeBq2FqvQJLXI7KLV?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/9lle8qhl6525mf3ivgupcdqlmo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbQ2OjX5eW8fSWbFPa4eJRoW0TkcS2JL-kOZX6IHKPQNmA5DX_F4GCl52rWyuoI_Wn2lhhmkgvOVHw6s_o4JBX-AkdVOChf3i-_wZ-AAx4SK27ZREP-9emYDmvZS52IG6HsUpUBm3ilAjGgB-ouCBQSvFo4WLWqEZL1_x0bg_c8X_bLV2raxUgz6Qip?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/lbbavh8s4ogjb0o9kkcjd2ugq4/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vakdxv5mUqkgpCpZU45ZAS84CcoaNODfrmn0tk7KeWZJkqp9nfUA1fg0Q6o9INM8bLAPvXve7ohJ97oroOqdD93F8PFdn4dv5FLmxDurdV6nhdsWlg43beBqINYEZ5ZDzfpKkcRNheKcc7-SfN4JpxPaTwpD5H5A22gAv-_2pcYm6jCvHC908SSY3Hu?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUG6nCkbFTcHEbvDMk8wdjX1-OIf1mWDnDG4wHgO4GT4ukGlfBUknC-bPFzLFzPSEuSbZVIUsYEEMDNee6T_sB4jy2HFIWkIcKfhodGzET5Mtxib0Lv8z98JVMj-AC7kVgjdjNKiuMoJa827R6gKj766leb7FN43A-13P01U2J2amrR3_4H8SarIozDOtk7TkA https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/mag9sslkf111cliu2fh1rejgmg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYTe4lrw28gfKMeoZaJcq5BDyPbH502-W2HNVmARKYaFJeiw02dY-hmItXpwDuIZm2aQXIe7A79_TDsTVY33gaTyd5NdIfLYUiVEbiYybnJYqvP5H-3d5cAXjlZ1Y6WIcpsNiYakLJdf_nZPiOM4hDjZ2ec1XmM5sBHgOy3I6GpQwxpuTVk7wS63Sm5?session=0&fife https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/oknd0pt9s85d348bo0vsjg0ddg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaTQESHzNVmmb9V1aNiI56ZdX4XKOfxrCRr3evY8_GqugFHbKBLxYkxeOtQ54EkLxvBb2Xtyzavh9SYGwS7mfTcTxQ8Fy9oNmt_81SLtW2VTEldTzBqxPN1ssSB0f1bjS0yN5RzR22bufmcgD9OIx-fH_-DXXg7DQwuCoCfU-0MeBq2FqvQJLXI7KLV?session=0&fife https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/9lle8qhl6525mf3ivgupcdqlmo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbQ2OjX5eW8fSWbFPa4eJRoW0TkcS2JL-kOZX6IHKPQNmA5DX_F4GCl52rWyuoI_Wn2lhhmkgvOVHw6s_o4JBX-AkdVOChf3i-_wZ-AAx4SK27ZREP-9emYDmvZS52IG6HsUpUBm3ilAjGgB-ouCBQSvFo4WLWqEZL1_x0bg_c8X_bLV2raxUgz6Qip?session=0&fife https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/lbbavh8s4ogjb0o9kkcjd2ugq4/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vakdxv5mUqkgpCpZU45ZAS84CcoaNODfrmn0tk7KeWZJkqp9nfUA1fg0Q6o9INM8bLAPvXve7ohJ97oroOqdD93F8PFdn4dv5FLmxDurdV6nhdsWlg43beBqINYEZ5ZDzfpKkcRNheKcc7-SfN4JpxPaTwpD5H5A22gAv-_2pcYm6jCvHC908SSY3Hu?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.8698012,45.3024597,0"
+							}
+						},
+						{
+							"name": "273 Club Nautique Mézy",
+							"description": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/h9kgbvgaquvsj2u0c7q3o5ij68/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZ_ElH4Zyyu3DykEo7fgjztd8RcVpTt9STELuL786FLGfl5eEzxtElZYy3pZxz8B4VRja_7Ny9MC3BL-x_Mt76OUmM36MCHIFPc4w5oMc5WVhpkwfX7Inz61_FL_Ew1YWZO5G_rdX6GRw5T4p4kDh7BlEzLKYm5rvbb6lrqKhVgXelpaYS4OtJ_B52c?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>925 boul. Marie-Victorin Boucherville",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/h9kgbvgaquvsj2u0c7q3o5ij68/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZ_ElH4Zyyu3DykEo7fgjztd8RcVpTt9STELuL786FLGfl5eEzxtElZYy3pZxz8B4VRja_7Ny9MC3BL-x_Mt76OUmM36MCHIFPc4w5oMc5WVhpkwfX7Inz61_FL_Ew1YWZO5G_rdX6GRw5T4p4kDh7BlEzLKYm5rvbb6lrqKhVgXelpaYS4OtJ_B52c?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.4522416,45.6323909,0"
+							}
+						},
+						{
+							"name": "333 St-Valérien de Milton",
+							"description": "<img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/el6h4g3mi1gbq4aj0e9haob680/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYXfxrsUzydfrvnwDtCJWhjLUUHm4czxBKg-g-8Ibmwd-gEWh8bDH2Re9uPIxFavoYHOdva_iAkBYLz0nltuP34d2ASOlfDXSIC9LXcplHwV-8CNG5biz7Cdf__FLNSx_YQ3E6NRaVyApRR8T0h51v76VNJ0pVZwywlrwdUu3Av4QM992jb3J5jhQ7S?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>1375, rue Principale, C.P. 30<br>Saint-Valérien, Qc, J0H 2B0",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/el6h4g3mi1gbq4aj0e9haob680/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYXfxrsUzydfrvnwDtCJWhjLUUHm4czxBKg-g-8Ibmwd-gEWh8bDH2Re9uPIxFavoYHOdva_iAkBYLz0nltuP34d2ASOlfDXSIC9LXcplHwV-8CNG5biz7Cdf__FLNSx_YQ3E6NRaVyApRR8T0h51v76VNJ0pVZwywlrwdUu3Av4QM992jb3J5jhQ7S?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-72.7096707,45.564939,0"
+							}
+						},
+						{
+							"name": "380 Longueuil",
+							"description": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/8ang6r3b5auntcrcc1cr0eofig/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZqApAF1_PsWn5JFckOzZf7ZHvEo3O9B_RRpTE-ABWg_H8zndMKlFcN4aipH0RnXBbSe2BWUTgXb0MDoUIXPE87B9ZMZx8G6IB3PWYLBn2BIYqr1HHjKXWSku3fHrSTItFMIZg59zxVUc_jODdu-hmFwPwGNBDa9iaQM6y2ETPBuxa49NrD5YWe34FJ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>777 rue Guilbeault",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/8ang6r3b5auntcrcc1cr0eofig/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZqApAF1_PsWn5JFckOzZf7ZHvEo3O9B_RRpTE-ABWg_H8zndMKlFcN4aipH0RnXBbSe2BWUTgXb0MDoUIXPE87B9ZMZx8G6IB3PWYLBn2BIYqr1HHjKXWSku3fHrSTItFMIZg59zxVUc_jODdu-hmFwPwGNBDa9iaQM6y2ETPBuxa49NrD5YWe34FJ?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.5009345,45.5322534,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Montréal / Laval",
+					"Placemark": [
+						{
+							"name": "085 Île-Bizard",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUEVB514LCH5EZlMtIWw6IdHWkbXvwptDhbBBeOY1LTB_wECu_MxW1OFFqoM_iTKPmn7EeGr56ZDh6_CY4XWRqzGgDdOvvJPJX2tRqP27Q_czdvu_7_rxNEWSfhYvQL3zPTa8Za7Z6yYN03ekkraCwGTCvVApVp6Rd7bvVZYXuLGATGevM_S9mz9wzFXUSdM6Q\" height=\"200\" width=\"auto\" /><br><br>500 Montée de l'Église, L'Île-Bizard, QC H9C, Canada<br><br><img src=\"https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/dai4rn7mdsbqse6b4r7oqagt3o/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZevoP8JgRyhcJm8DPDBxXYxFt7H1arTP4m2NvLVKNfpNnkne_Ec3T2DLvbde5SJwvDA3PEG-yH6m1-oclK5hFzyho0WsNk4Ww5R5OaxJLux8ZzUGV7cfgCfIOlg9yq_wNOqvIpRBPGD3d4DxMu42kcr0F6HKkkbWGQySmFvJT2p44eq95hQHv9ADE?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ujja523g9lfi56pvuctrkef46k/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYhfHhxqzpyoSBi6zP-oiJjl17OVKc81lbN4fAgTRmANdoV8OYs6D3ww2IZNH3OcuFsRqTNeLNm4zzehPzOdnNN9rUBhO3h8OTA65cHlj4izwBBKaVMlnL1I4fXwLrkRd3ppyQbzb76_80pcYaJ5r81Kb4AC4KAJDO4nQ67J6fKJ_5ZisCzpzbHG1fq?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/hbau924ujl1m7fdrad4chjnr1s/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb6smASVCEozT11_JzLtAu7GQF1skzH9LjshTxMgEa_oRhKXX16JQ87UuFADb_Sdut37hKViw0QZ3R0ccMU02GLvZiPJKwCfjjWsqbfhhVetGGENQzIgf_b3iVw1D44ssrO8HaRIMQK_cr0cepGzyyTRP0KF8GTTXC2oVEDDx5u1bERHFG92ELlswkX?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/imnq9pdv4qr164l5ksgt0np4eo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vadYK17TtStrV9_z9YVE0RabMIGsm771beyPKpxxj_GfS-ncXI5TAQx8vBqnihnIxn7FE48DX23xtNKWV5nA1uRhWusirKi7fCicFrRgP72NL3EfE5qOOwN3T_oafDKzZcrpf4zX1kz43XHR1olzeewpLx8rvrs_tASa8TbS0nDWA1y34V4K-GzGaBt?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/61pp3prb2cripjdkbf8k3o3b3o/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbJ8K6tawhQrml_MCJDKsAfEp_Mo6AuGimQqzZxZnHJUQySebg9hTGi56Mfk4IMNSG731OhuBI0ePaUz0o_ayaCMPhQUhmrS3o8CNTufZS4Bn3HZCuhhY2XrzzdiEcGU-hWMEr8TnL990-7T7hRJ3zY1XXaKOKagDvT0ABdcAAwv2u7ez948FqZPnX3?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUEVB514LCH5EZlMtIWw6IdHWkbXvwptDhbBBeOY1LTB_wECu_MxW1OFFqoM_iTKPmn7EeGr56ZDh6_CY4XWRqzGgDdOvvJPJX2tRqP27Q_czdvu_7_rxNEWSfhYvQL3zPTa8Za7Z6yYN03ekkraCwGTCvVApVp6Rd7bvVZYXuLGATGevM_S9mz9wzFXUSdM6Q https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/dai4rn7mdsbqse6b4r7oqagt3o/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZevoP8JgRyhcJm8DPDBxXYxFt7H1arTP4m2NvLVKNfpNnkne_Ec3T2DLvbde5SJwvDA3PEG-yH6m1-oclK5hFzyho0WsNk4Ww5R5OaxJLux8ZzUGV7cfgCfIOlg9yq_wNOqvIpRBPGD3d4DxMu42kcr0F6HKkkbWGQySmFvJT2p44eq95hQHv9ADE?session=0&fife https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ujja523g9lfi56pvuctrkef46k/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYhfHhxqzpyoSBi6zP-oiJjl17OVKc81lbN4fAgTRmANdoV8OYs6D3ww2IZNH3OcuFsRqTNeLNm4zzehPzOdnNN9rUBhO3h8OTA65cHlj4izwBBKaVMlnL1I4fXwLrkRd3ppyQbzb76_80pcYaJ5r81Kb4AC4KAJDO4nQ67J6fKJ_5ZisCzpzbHG1fq?session=0&fife https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/hbau924ujl1m7fdrad4chjnr1s/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb6smASVCEozT11_JzLtAu7GQF1skzH9LjshTxMgEa_oRhKXX16JQ87UuFADb_Sdut37hKViw0QZ3R0ccMU02GLvZiPJKwCfjjWsqbfhhVetGGENQzIgf_b3iVw1D44ssrO8HaRIMQK_cr0cepGzyyTRP0KF8GTTXC2oVEDDx5u1bERHFG92ELlswkX?session=0&fife https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/imnq9pdv4qr164l5ksgt0np4eo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vadYK17TtStrV9_z9YVE0RabMIGsm771beyPKpxxj_GfS-ncXI5TAQx8vBqnihnIxn7FE48DX23xtNKWV5nA1uRhWusirKi7fCicFrRgP72NL3EfE5qOOwN3T_oafDKzZcrpf4zX1kz43XHR1olzeewpLx8rvrs_tASa8TbS0nDWA1y34V4K-GzGaBt?session=0&fife https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/61pp3prb2cripjdkbf8k3o3b3o/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbJ8K6tawhQrml_MCJDKsAfEp_Mo6AuGimQqzZxZnHJUQySebg9hTGi56Mfk4IMNSG731OhuBI0ePaUz0o_ayaCMPhQUhmrS3o8CNTufZS4Bn3HZCuhhY2XrzzdiEcGU-hWMEr8TnL990-7T7hRJ3zY1XXaKOKagDvT0ABdcAAwv2u7ez948FqZPnX3?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.8824022,45.4883997,0"
+							}
+						},
+						{
+							"name": "218 Collège Montmorency",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUFVs5oM7NdVal-a1yIJoVt_SfwHuG3u4TqnHIJVtckZFwYrMCGKCHobOvfAg99KqDx_CuoAhN9VAdCmRE6Flo1OL5T4NCznKuZWq5em7Itcmn8PKK7Wlu2gPLIsrODkt-XD4aM6MhQtXzD1baYJ1YU-6FyhQw5ORO2LNuNWV7lykZoClbSrUDKvLvk9qKF4HQ\" height=\"200\" width=\"auto\" /><br><br>475 Boul. l'Avenir Laval<br><br><img src=\"https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/72iq02ra3m73nuvj6bcmjvirtk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZgdn6WGeYYPUuAXsMxFKUlc876h1uEve4yCQDO1acPr-Lm8iWOmWDAIvN4H7L8ScQuPFJQNB1IwKQyPa4ssll4mZKPDV2KVFBB2zhQOshHIKtN7hI4GqiXccPKzmWyEQXN0r4Kr0iMPnxCNoBwMBKX90QBpXSNQRBANIlWQx5pIjHkcTad3Q24e8Fs?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/7j0cen6uj68hvus925l1l0casg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb4Wnp7vPETVzTGWJdxFSAvuZ6oSA9gaQgSagBiKYFLOTD0A4LfY_eL6UC5OdsvYyXFJNCB-7Wi0VxOCO2_60M6rRVB73sm7x4uthbo0FWj2CVjoUITNxNyzDhaYZeSJewTUPlnhaQAqj62eyMg6WS-Iu2AWBndoqH7h_L6v6Hz4_jaxtU4IWXVRG4e?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/dsmfe5tme0go644h7sh3rm6plo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYncsQO0LqZdgW1TkekopdF9UmwPtqSAwXMHXr0E5fllILR7EA2HFLtelVMBaPuxxVm5KXApQqb7aEdmrlh4qWMiAkl0kSmHE69vKFOLk2T0sreGpFn-Io1MeewCPgscZiRwH3FbCKQluMg6C-nwesC9b0sg1jRrGVC4qtSIbhuWGsRoV-jJ1C7gdn-?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUFVs5oM7NdVal-a1yIJoVt_SfwHuG3u4TqnHIJVtckZFwYrMCGKCHobOvfAg99KqDx_CuoAhN9VAdCmRE6Flo1OL5T4NCznKuZWq5em7Itcmn8PKK7Wlu2gPLIsrODkt-XD4aM6MhQtXzD1baYJ1YU-6FyhQw5ORO2LNuNWV7lykZoClbSrUDKvLvk9qKF4HQ https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/72iq02ra3m73nuvj6bcmjvirtk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZgdn6WGeYYPUuAXsMxFKUlc876h1uEve4yCQDO1acPr-Lm8iWOmWDAIvN4H7L8ScQuPFJQNB1IwKQyPa4ssll4mZKPDV2KVFBB2zhQOshHIKtN7hI4GqiXccPKzmWyEQXN0r4Kr0iMPnxCNoBwMBKX90QBpXSNQRBANIlWQx5pIjHkcTad3Q24e8Fs?session=0&fife https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/7j0cen6uj68hvus925l1l0casg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb4Wnp7vPETVzTGWJdxFSAvuZ6oSA9gaQgSagBiKYFLOTD0A4LfY_eL6UC5OdsvYyXFJNCB-7Wi0VxOCO2_60M6rRVB73sm7x4uthbo0FWj2CVjoUITNxNyzDhaYZeSJewTUPlnhaQAqj62eyMg6WS-Iu2AWBndoqH7h_L6v6Hz4_jaxtU4IWXVRG4e?session=0&fife https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/dsmfe5tme0go644h7sh3rm6plo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYncsQO0LqZdgW1TkekopdF9UmwPtqSAwXMHXr0E5fllILR7EA2HFLtelVMBaPuxxVm5KXApQqb7aEdmrlh4qWMiAkl0kSmHE69vKFOLk2T0sreGpFn-Io1MeewCPgscZiRwH3FbCKQluMg6C-nwesC9b0sg1jRrGVC4qtSIbhuWGsRoV-jJ1C7gdn-?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.7185407,45.5591099,0"
+							}
+						},
+						{
+							"name": "086 rue doc Penfield",
+							"description": "1581 Avenue du Docteur-Penfield",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"Point": {
+								"coordinates": "-73.5864699,45.4968748,0"
+							}
+						},
+						{
+							"name": "088 rue Milton",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUEJXcrHJYrjgCn_Ah3dYBnBSAYkc3SXFNFxsIY_n9gm3i72jY2rvGpvBoukyzgIhTAkgzjJP0w9xcHT8wU1NL92yTwGM7Ry04bHlMc61DPJIKiPRxE9uLXWzHGHWCIev0EarQvzzt017URrtV6NGoqX7yaKGYAfatv_AvpMw__Jg2MpYzBt1eOMEW9rbUxd\" height=\"200\" width=\"auto\" /><br><br>570 Rue Milton<br><br><img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/bi0hni5tb7mfrg4be87gh6fd5g/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYjaP6idJnVK8o_Bzc2PgFPZ3oImeH54d0Paj7Zs9aaq8s_BbpGgeva1DLEjlzp8EiY7yVbZV99MsD3gChnsDKke61JI2TE_fFJ4eqCW5G2yLogBSWp5eNY05orZz6JRlr0-4xz-uWFm-wBVpUxd27QoZEFcDtLqUIlGJmC4S4-N9IDzx8TX8gh9qhk?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUEJXcrHJYrjgCn_Ah3dYBnBSAYkc3SXFNFxsIY_n9gm3i72jY2rvGpvBoukyzgIhTAkgzjJP0w9xcHT8wU1NL92yTwGM7Ry04bHlMc61DPJIKiPRxE9uLXWzHGHWCIev0EarQvzzt017URrtV6NGoqX7yaKGYAfatv_AvpMw__Jg2MpYzBt1eOMEW9rbUxd https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/bi0hni5tb7mfrg4be87gh6fd5g/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYjaP6idJnVK8o_Bzc2PgFPZ3oImeH54d0Paj7Zs9aaq8s_BbpGgeva1DLEjlzp8EiY7yVbZV99MsD3gChnsDKke61JI2TE_fFJ4eqCW5G2yLogBSWp5eNY05orZz6JRlr0-4xz-uWFm-wBVpUxd27QoZEFcDtLqUIlGJmC4S4-N9IDzx8TX8gh9qhk?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.5756614,45.5069924,0"
+							}
+						},
+						{
+							"name": "090, 091 Musée McCord",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUHMB5ALVE4kDdhLCDAkXqVjVC__sgvBXelgNI9TADvDZOzmM8lF6H15WyJNY1Ekpt1dw4LmRH_Qy7srt5WXUU5iCnY8_f3aGPkqNu4mUzaxWz3PNrdR4JHfX-15cfhbZQbaOei4JjaXf3T0ZMWFKGBkEW3SzsjwpRJLdgwJdTPZRT0kCYZb7OVeAAKrPp_V\" height=\"200\" width=\"auto\" /><br><br>Musée McCord",
+							"styleUrl": "#icon-503-F4EB37-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUHMB5ALVE4kDdhLCDAkXqVjVC__sgvBXelgNI9TADvDZOzmM8lF6H15WyJNY1Ekpt1dw4LmRH_Qy7srt5WXUU5iCnY8_f3aGPkqNu4mUzaxWz3PNrdR4JHfX-15cfhbZQbaOei4JjaXf3T0ZMWFKGBkEW3SzsjwpRJLdgwJdTPZRT0kCYZb7OVeAAKrPp_V",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.573362,45.5043077,0"
+							}
+						},
+						{
+							"name": "107, Musée Beaux Arts",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUEoa6aX8d4TcBVjPkm-YXqIipU-_OS1wYP--scQu7dTn7Q7gIdFgTYy_3on2vZyEGnOWycfGs21ksHcsfrQo2oAD3xgZLJnXawrbATYzVSnJv4x3TmS-lMIxI8pslP7Z77eVbx-KeCvAQVmfw-g4X1NnxdBN0-gIVrogNCnKjuE3N_w7Kn7c6rlPvUvpF6ASQ\" height=\"200\" width=\"auto\" /><br><br>Musée des beaux-arts de Montréal",
+							"styleUrl": "#icon-503-F4EB37-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUEoa6aX8d4TcBVjPkm-YXqIipU-_OS1wYP--scQu7dTn7Q7gIdFgTYy_3on2vZyEGnOWycfGs21ksHcsfrQo2oAD3xgZLJnXawrbATYzVSnJv4x3TmS-lMIxI8pslP7Z77eVbx-KeCvAQVmfw-g4X1NnxdBN0-gIVrogNCnKjuE3N_w7Kn7c6rlPvUvpF6ASQ",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.5794001,45.4985219,0"
+							}
+						},
+						{
+							"name": "108 mus Horlogerie/antiquités",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUG13hR7DIZP3zsnkHxzROFzzLT5vwNrng2afrrEWowvn27lr3j8ewpgvm1nOFPG4-9dbKOYz4RCt1edsEVbCR6jbZEyRgQnMwBvpyaEGezEBPQdWX0eORvXdsaVfSyRgJ5TL0uLwilDhMNMXp2N0rfKa2OTBd3XuudidmgfcMZrKCGyb9JLT5xXH8kspo6m\" height=\"200\" width=\"auto\" /><br><br>520 Rue Sherbrooke O",
+							"styleUrl": "#icon-503-F4EB37-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUG13hR7DIZP3zsnkHxzROFzzLT5vwNrng2afrrEWowvn27lr3j8ewpgvm1nOFPG4-9dbKOYz4RCt1edsEVbCR6jbZEyRgQnMwBvpyaEGezEBPQdWX0eORvXdsaVfSyRgJ5TL0uLwilDhMNMXp2N0rfKa2OTBd3XuudidmgfcMZrKCGyb9JLT5xXH8kspo6m",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.5725436,45.5062613,0"
+							}
+						},
+						{
+							"name": "192 Reed, 193 Booth, 217 Noakes",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUFPyHcZWF8lPc5zLzR6RMFwqDSEd5PeQrIiYQkb52OvzlH3fneZH-dFfon_jDrhm_EWu4XLdQl9C-LjufId9IQcNnumYhITvHbWca6HOJx_KR8XZ3NY7yXLIvpBiEBpM8Xf31bVIjCAONnMY5P2VPGDXE5AEKxH1kgireg71hVYJ7bE1YjKyAPTW6srlUzSsg\" height=\"200\" width=\"auto\" /><br><br>Cimetière Mont-Royal   <br><br><img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/q4s23obbhdq1dm45m4kbo52714/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vapwy4Q9EOLuSrbR2atRIJ297vEPvEN6CXrNvQ4uGDbcfa_Bhs9m7wYNpuhDkA2kSv9a2c9FI2xQ-zHPbK0MR-eZRr9TzjAj9toFZVJmS19qzZ9WdXeFxvp1eC0Tp7Ym9ZG4IWb01KvZRhbAzuvQcE2UVULwL7gPB0zHcFdmVefoI5Qva0wxbyW_j-O?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUFPyHcZWF8lPc5zLzR6RMFwqDSEd5PeQrIiYQkb52OvzlH3fneZH-dFfon_jDrhm_EWu4XLdQl9C-LjufId9IQcNnumYhITvHbWca6HOJx_KR8XZ3NY7yXLIvpBiEBpM8Xf31bVIjCAONnMY5P2VPGDXE5AEKxH1kgireg71hVYJ7bE1YjKyAPTW6srlUzSsg https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/q4s23obbhdq1dm45m4kbo52714/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vapwy4Q9EOLuSrbR2atRIJ297vEPvEN6CXrNvQ4uGDbcfa_Bhs9m7wYNpuhDkA2kSv9a2c9FI2xQ-zHPbK0MR-eZRr9TzjAj9toFZVJmS19qzZ9WdXeFxvp1eC0Tp7Ym9ZG4IWb01KvZRhbAzuvQcE2UVULwL7gPB0zHcFdmVefoI5Qva0wxbyW_j-O?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.6004966,45.5094898,0"
+							}
+						},
+						{
+							"name": "208 F. Beaulieu",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUG8tEKGGKGDHX2vOPDqDPWGQvgcNTIwhEPvGyHkbunv1FXCgc6S74GXehl-CbCJwUs1Jrgbw-y2vOYtdZJ-5foJhX-IbwOvQWh1IWmTcb9eSl1ZHrqZRoLO7AE5PRe301Ad_nD_r1SMNfK7EJi_oVFDtsZVs4VlAseHGGqJriyO7DNk52-JqWn_PztLP2DaKQ\" height=\"200\" width=\"auto\" /><br><br>6917 26e ave Montréal<br><br><img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/6hvqqj108sph80dfrtsm7it6fk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYExb2ubOgICy3VJMWE3i0ilwexcyEhrvFaZU21jqqOWm5AKHLCre0wFRHnZQ48kQ4C7w_h1uLP8MWIMUU6fKaqDNgEMdwR6sdy0XkcFt1qDQ1UUbashD5--ZqdX8hUb_-ai5XWISML8j9etM78Wje4IQ1LMRtJHhnhP195nX1tiMqpIR6LeDdBiHtL?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/bfla4r7i1l1rm8kgu9q7bc79fk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZ-qkiV1bx3hFOaH5yyWIiS3HelvO_fmh4KlFidj87MiLLVPZrSEeYgoefSHX43oFdZbpDPyyb10E-IvRpvp_QW3Zx9PoztK29r7rbwEqfaWXrFwUmyplgwkltIdtp8fUPqKM_dj5IZp8z5VjNIpm5WUubWgZiselpjC8C2rBSL5qVRmtSdb3sggGUc?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUG8tEKGGKGDHX2vOPDqDPWGQvgcNTIwhEPvGyHkbunv1FXCgc6S74GXehl-CbCJwUs1Jrgbw-y2vOYtdZJ-5foJhX-IbwOvQWh1IWmTcb9eSl1ZHrqZRoLO7AE5PRe301Ad_nD_r1SMNfK7EJi_oVFDtsZVs4VlAseHGGqJriyO7DNk52-JqWn_PztLP2DaKQ https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/6hvqqj108sph80dfrtsm7it6fk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYExb2ubOgICy3VJMWE3i0ilwexcyEhrvFaZU21jqqOWm5AKHLCre0wFRHnZQ48kQ4C7w_h1uLP8MWIMUU6fKaqDNgEMdwR6sdy0XkcFt1qDQ1UUbashD5--ZqdX8hUb_-ai5XWISML8j9etM78Wje4IQ1LMRtJHhnhP195nX1tiMqpIR6LeDdBiHtL?session=0&fife https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/bfla4r7i1l1rm8kgu9q7bc79fk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZ-qkiV1bx3hFOaH5yyWIiS3HelvO_fmh4KlFidj87MiLLVPZrSEeYgoefSHX43oFdZbpDPyyb10E-IvRpvp_QW3Zx9PoztK29r7rbwEqfaWXrFwUmyplgwkltIdtp8fUPqKM_dj5IZp8z5VjNIpm5WUubWgZiselpjC8C2rBSL5qVRmtSdb3sggGUc?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.5820451,45.5663938,0"
+							}
+						},
+						{
+							"name": "209 parc Delorme",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUHdrpIU9BWNT_ajPAnzbyMejKDNdQiF6Pop2Xiu0jALJR6fACaBOaIzP6CTntRgOj8Mj2QgbYtBh3iVfAK-lULm3XFFs8OmJbBQjDQV7_02FH34YCpviFEOhFFhmpvgc8hwAgUIgizlJunpNq8kZIFmvsazde-T7fYdG1e50vzZtiJdTF6r3Gfb-U_F9PDTIA\" height=\"200\" width=\"auto\" /><br><br>6080 rue Honfleur Mtl Nord<br><br><img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/44l78hjfn828nkkm7map6mo7so/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vY31q9XHGs6cTwF0sWiGKcwyHZENTFyKmAQ9u3P4ogUSMSjm8iVBwVFNieqJApeXAlp7QNlrxdLXFngiXiw15kZ8jLhrnY9TofKMqlLeigxhnKS_w2Y-Zc_Q-NJjvvaDvAbKgPlkLx7FbV_tJWpk3yPwaB5TISz6ZKqFIeV3CPTEPPuM7J3e7cTJxfe?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/52sooqj32gqhknqjtqh760bs7s/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYd_3taYsVYW9oF7HKFlw7NtpG_upFuusQhJewVbs_3rICQ18fdZkiGq6QEB6aKa3Hl6eDltIB_Wb2iiE0rsJuTHGjG_0xWNAtPGY1w4I-fZIofelsaREjlcFU9ri6WjXy-UmtLieNS5OQMAZJyhyrbhQYuLyKeVwJRnFcbA4f2OC17NAJgGdpHtiHo?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUHdrpIU9BWNT_ajPAnzbyMejKDNdQiF6Pop2Xiu0jALJR6fACaBOaIzP6CTntRgOj8Mj2QgbYtBh3iVfAK-lULm3XFFs8OmJbBQjDQV7_02FH34YCpviFEOhFFhmpvgc8hwAgUIgizlJunpNq8kZIFmvsazde-T7fYdG1e50vzZtiJdTF6r3Gfb-U_F9PDTIA https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/44l78hjfn828nkkm7map6mo7so/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vY31q9XHGs6cTwF0sWiGKcwyHZENTFyKmAQ9u3P4ogUSMSjm8iVBwVFNieqJApeXAlp7QNlrxdLXFngiXiw15kZ8jLhrnY9TofKMqlLeigxhnKS_w2Y-Zc_Q-NJjvvaDvAbKgPlkLx7FbV_tJWpk3yPwaB5TISz6ZKqFIeV3CPTEPPuM7J3e7cTJxfe?session=0&fife https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/52sooqj32gqhknqjtqh760bs7s/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYd_3taYsVYW9oF7HKFlw7NtpG_upFuusQhJewVbs_3rICQ18fdZkiGq6QEB6aKa3Hl6eDltIB_Wb2iiE0rsJuTHGjG_0xWNAtPGY1w4I-fZIofelsaREjlcFU9ri6WjXy-UmtLieNS5OQMAZJyhyrbhQYuLyKeVwJRnFcbA4f2OC17NAJgGdpHtiHo?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.5898805,45.5915338,0"
+							}
+						},
+						{
+							"name": "230 Visitation",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUEW7GmRRM6rOX2-ocI7J6QwTbkx0acRbvoeG9WTQWZEcG1yMcQ-DmIIdPHMpgpLj_cadLvJk3k_QCzvM6wlUXj95ysckUu_oiLL3yubpkWOQ1-LG0kS43SIw6QgUfOppsflOo2t6xPsICCB5IRVIU94wTkd16H-LehUpIjR6pVP-jCZls2fHDaC8pu_DV22RA\" height=\"200\" width=\"auto\" /><br><br>1847 boul. Gouin Est <br><br><img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/uknpv0sdeu0gcjblt1d5pb1vag/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaMJAmZfCakt2PJT3ndO_iRrNkFvaLN7DKWpBkv7WjMVsk2yDK_0HnH0msG47fchSHAmUrMryzP4YaiUMV43RrItz1XvyyEl6BpajZTtBWrcfFQW93VTgBqyRITScySpDv9WFzWe50b-X2uMRvRNMkFWFAS7xIUp-9EASj7Vus5qbBqXdiE3KMoI9xE?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/m44sv28hbkjucpaufklh5q3hco/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZUpR-x4GRGR4BQCkd7q3Pz4B8pCifnzd01NJ-UdO5o_AP9RZcy1nCJchHleeQ8ci_QvDcJ0tA14LsnaXh9yW6IMUCngOHIxSjV1sYdDgGGcuquG1sGbiHxumf_ZOK15YbCI6Gvk2akI6fCmGtCpxTjdl7-im5dNQn1lwMslsCEpiYSqg0VbLNYvJop?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/hlh0an8q20r72cog827hv2bods/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZ0Ed5WuFx1UqflYI4mKsSE8w7OGT8L_HVWBs6r3yf98yZxL2Woo6Bnh3LEVqBezSHmtOH7qkWBIG3TA2xrgSIB7MkppD47V3GH_zaLr3sOkANw1NUN_arAWl9OrwuyF81Xzx0VHmMOKh4zd0eZVpUD3E6bh83KBfk-zv8YpxLz82JAv7q7UB7KpV2n?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUEW7GmRRM6rOX2-ocI7J6QwTbkx0acRbvoeG9WTQWZEcG1yMcQ-DmIIdPHMpgpLj_cadLvJk3k_QCzvM6wlUXj95ysckUu_oiLL3yubpkWOQ1-LG0kS43SIw6QgUfOppsflOo2t6xPsICCB5IRVIU94wTkd16H-LehUpIjR6pVP-jCZls2fHDaC8pu_DV22RA https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/uknpv0sdeu0gcjblt1d5pb1vag/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaMJAmZfCakt2PJT3ndO_iRrNkFvaLN7DKWpBkv7WjMVsk2yDK_0HnH0msG47fchSHAmUrMryzP4YaiUMV43RrItz1XvyyEl6BpajZTtBWrcfFQW93VTgBqyRITScySpDv9WFzWe50b-X2uMRvRNMkFWFAS7xIUp-9EASj7Vus5qbBqXdiE3KMoI9xE?session=0&fife https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/m44sv28hbkjucpaufklh5q3hco/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZUpR-x4GRGR4BQCkd7q3Pz4B8pCifnzd01NJ-UdO5o_AP9RZcy1nCJchHleeQ8ci_QvDcJ0tA14LsnaXh9yW6IMUCngOHIxSjV1sYdDgGGcuquG1sGbiHxumf_ZOK15YbCI6Gvk2akI6fCmGtCpxTjdl7-im5dNQn1lwMslsCEpiYSqg0VbLNYvJop?session=0&fife https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/hlh0an8q20r72cog827hv2bods/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZ0Ed5WuFx1UqflYI4mKsSE8w7OGT8L_HVWBs6r3yf98yZxL2Woo6Bnh3LEVqBezSHmtOH7qkWBIG3TA2xrgSIB7MkppD47V3GH_zaLr3sOkANw1NUN_arAWl9OrwuyF81Xzx0VHmMOKh4zd0eZVpUD3E6bh83KBfk-zv8YpxLz82JAv7q7UB7KpV2n?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.6615491,45.5707224,0"
+							}
+						},
+						{
+							"name": "231 Casino Mtl",
+							"description": "<img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/vg0gf4hgognt918rt8km3jft5k/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZC04O46b84KLlx9UuoE5o7AMZStn4cVXSke1O4zewL87j_hVpkPoZFlYEA9PDyYBceZPXgOgd20kJiup8hiLO7bfJXofXiIyqzvxuHoAhZbtzz9kdb4ZWlWqIIWCJsJcp0dWXFaNxxKrZ5PRYAt96FJEumrUyYDS29FFX3zRuthcT_Pv78lg87TK-h?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>1 Avenue du Casino",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/vg0gf4hgognt918rt8km3jft5k/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZC04O46b84KLlx9UuoE5o7AMZStn4cVXSke1O4zewL87j_hVpkPoZFlYEA9PDyYBceZPXgOgd20kJiup8hiLO7bfJXofXiIyqzvxuHoAhZbtzz9kdb4ZWlWqIIWCJsJcp0dWXFaNxxKrZ5PRYAt96FJEumrUyYDS29FFX3zRuthcT_Pv78lg87TK-h?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.5258858,45.5053663,0"
+							}
+						},
+						{
+							"name": "244 Peronne",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUG64-yt_8ZXE3Yfkx2DgSXjoZ5rm8uMqg31YIbXn6-C0IJdGNC3MqY5J2RaVnwqEL1zqDm0W9bGBhRucVbPYS9Zd9b8n0k57uUsJUIirgy4lqmIXh5oxjeSPUC17llvXuQkfZzi9kyR5SOg6hKUC-84v1B-jAMS_1AkjjksCTOlo_GrCKAcBrDOQym5mMpH\" height=\"200\" width=\"auto\" /><br><br>21 Avenue Peronne Outremont<br><br><img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/p6usfp9vavl9n6qnek53o69uak/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYGYZpaXQ-_CVCaugY8A7RGtDFtR2hbblH-W6ItohuwliAvND9ii3__D2PLzCqafsshE-79-ndsY9cZ0f-rDkUpQJbNY0kJQJZcgoW-BP72yu7W5x6rUdq58tSocKnJFBXTx513c70blGqbG5-6GYchUHPL3DcKdqn-gFgyKy0EhWYCVCvZLKALu8br?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUG64-yt_8ZXE3Yfkx2DgSXjoZ5rm8uMqg31YIbXn6-C0IJdGNC3MqY5J2RaVnwqEL1zqDm0W9bGBhRucVbPYS9Zd9b8n0k57uUsJUIirgy4lqmIXh5oxjeSPUC17llvXuQkfZzi9kyR5SOg6hKUC-84v1B-jAMS_1AkjjksCTOlo_GrCKAcBrDOQym5mMpH https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/p6usfp9vavl9n6qnek53o69uak/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYGYZpaXQ-_CVCaugY8A7RGtDFtR2hbblH-W6ItohuwliAvND9ii3__D2PLzCqafsshE-79-ndsY9cZ0f-rDkUpQJbNY0kJQJZcgoW-BP72yu7W5x6rUdq58tSocKnJFBXTx513c70blGqbG5-6GYchUHPL3DcKdqn-gFgyKy0EhWYCVCvZLKALu8br?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.6181518,45.5112503,0"
+							}
+						},
+						{
+							"name": "258 Musée Stewart",
+							"description": "<img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/jopn2aurffr1ehm884n9d1kulk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaq0j0aq3CP03H5irRy-N_gLTPSZ29JpnCTNsZLqz1PTrxKssDoDOGsPrThNTZJNIPvQzjXMPG_mb39Vwvc2GweW8tNsrJrewsLRfzgS1PyL7D1xQI8HvHljZrWnF3L4Vz3Pw-Q2I6ycocrncTT8Qz1kBpLeTx_I9PmzyX4gRUdtzPjTrQSqKaoTSuS?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Île Sainte-Hélène",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/jopn2aurffr1ehm884n9d1kulk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaq0j0aq3CP03H5irRy-N_gLTPSZ29JpnCTNsZLqz1PTrxKssDoDOGsPrThNTZJNIPvQzjXMPG_mb39Vwvc2GweW8tNsrJrewsLRfzgS1PyL7D1xQI8HvHljZrWnF3L4Vz3Pw-Q2I6ycocrncTT8Qz1kBpLeTx_I9PmzyX4gRUdtzPjTrQSqKaoTSuS?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.5360052,45.5195366,0"
+							}
+						},
+						{
+							"name": "280 Rue Roy",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUHxOlaTNadHmYsEKVfWF-XIrdvtuR2d5oHWnJxmtcTRIS-iT9GKuDhaU-q8oyG2lF4c0F-PGZOWqgbhp_4riIfJZsftV9K0DqB17W8NxWGHZkMNoLkCU2vZOhfTq1R7zRkrpMn6DCtkNpKKkoJBu3kQLFg7DXm30-NmeVreWMDfUMJTHdc5idhXeH7TeEvzZg\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/nepotaqak5ne81ovl1gu28rm5o/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYmD03gUHIsfDubZuFoh9P6Ja_JZeLyhKxFIWZY35UflqdqVFxZZ61AHKLJnhK6EUJKEkmVpimsFQulrofgo98B3lS54_h-DzgS0qetMBvt5XM-tRsYjg9bhpqxuMybrMwxvCFOfVT9-PnSFnECgTfz4voUTl6C-8DhlvYsRNtxn2E9-rIi9hEeWqmO?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/5edkuafid6k4c24sf1ptbga4f8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbZ1sTHAq5bRuFLbRkGEQW6CYSXKwFl37OKWs_rGn8JGjmncH2Y7C-1o5_9C4xQcGrj2jXE50GGOaZ55C4-Thc5jHUkBhWM2l8ia1CyDFPNEZsS7hb-64_c3SkjLgEPRKpgSOjRJgXk99yRHdfMJi7B7Pw9OU8gudz3HK561MGLPsHYRr9PgHxTpHmJ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/nru1isk3tftngtthhpc3pdsu10/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYbB2XcDMv4yu4mNxiTxX3AQhLSUUrxk9xTZcwlfAT_edXIdPcqnSMBzFsgw75cPUEZ1nIYb11OVtDPhrNUMJdtpehY8Pgzc_bMdm4c8qD4GIbGJnQFs58j65uOhBoO4rGS630mXvTDRQYTQZ0PV2-jCieQW1bKx3iNusQ1vn9PLUKraCSnkavXGSTy?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/f6po36jmh59j7k8ctl2lqtbug8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb4gi176XE6RnremplCJuFafA2nHaYX03qipBkG3J_JL0hCovnb8yPbQ4-XrXDECIsjHVWmkDP4jZucKo-zfaZ_6vHSHUcj9sH7sM5msVzWinAV6dYcUEtrdWJU-r-WfUveGOmZXJOV76OLEEphMxWqe2YRHK5XspVutuRjwznh1TpwD2Z4PiL_q0C8?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUHxOlaTNadHmYsEKVfWF-XIrdvtuR2d5oHWnJxmtcTRIS-iT9GKuDhaU-q8oyG2lF4c0F-PGZOWqgbhp_4riIfJZsftV9K0DqB17W8NxWGHZkMNoLkCU2vZOhfTq1R7zRkrpMn6DCtkNpKKkoJBu3kQLFg7DXm30-NmeVreWMDfUMJTHdc5idhXeH7TeEvzZg https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/nepotaqak5ne81ovl1gu28rm5o/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYmD03gUHIsfDubZuFoh9P6Ja_JZeLyhKxFIWZY35UflqdqVFxZZ61AHKLJnhK6EUJKEkmVpimsFQulrofgo98B3lS54_h-DzgS0qetMBvt5XM-tRsYjg9bhpqxuMybrMwxvCFOfVT9-PnSFnECgTfz4voUTl6C-8DhlvYsRNtxn2E9-rIi9hEeWqmO?session=0&fife https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/5edkuafid6k4c24sf1ptbga4f8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbZ1sTHAq5bRuFLbRkGEQW6CYSXKwFl37OKWs_rGn8JGjmncH2Y7C-1o5_9C4xQcGrj2jXE50GGOaZ55C4-Thc5jHUkBhWM2l8ia1CyDFPNEZsS7hb-64_c3SkjLgEPRKpgSOjRJgXk99yRHdfMJi7B7Pw9OU8gudz3HK561MGLPsHYRr9PgHxTpHmJ?session=0&fife https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/nru1isk3tftngtthhpc3pdsu10/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYbB2XcDMv4yu4mNxiTxX3AQhLSUUrxk9xTZcwlfAT_edXIdPcqnSMBzFsgw75cPUEZ1nIYb11OVtDPhrNUMJdtpehY8Pgzc_bMdm4c8qD4GIbGJnQFs58j65uOhBoO4rGS630mXvTDRQYTQZ0PV2-jCieQW1bKx3iNusQ1vn9PLUKraCSnkavXGSTy?session=0&fife https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/f6po36jmh59j7k8ctl2lqtbug8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vb4gi176XE6RnremplCJuFafA2nHaYX03qipBkG3J_JL0hCovnb8yPbQ4-XrXDECIsjHVWmkDP4jZucKo-zfaZ_6vHSHUcj9sH7sM5msVzWinAV6dYcUEtrdWJU-r-WfUveGOmZXJOV76OLEEphMxWqe2YRHK5XspVutuRjwznh1TpwD2Z4PiL_q0C8?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.6310524,45.6161113,0"
+							}
+						},
+						{
+							"name": "282 Concordia",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUHU_xoUQx3TgE23JfIib9sqM0C1NB7b75DmzpY3bI42luGGgi4fOiDO2hPuxMN7FniTxL5sLJrWXQXoqIMC3AiQ48bmMjKzncMDS8CnMiKGXs2O2Feb2Yc2QC58ewRUR6k_wiVVCG51xjudqyX4GTCcHlgXDpNlV4o8J5ftmdxGeuO_wvQWN61vLyCb_wE6ug\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ojou144s8tocds0kvi6757ucc8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYej0_M3pNo8PehHksbZ6qzO-4bLe4MNrkWS6j3P2Yh3AnOq9bfaQRAcXpIqELKzV3Zyid64vVyu9f4qVsZRZXoH_peIwzcVjDFSAXBOPSv10R81dspRw7cSyuzwluYZOjsCON5cVJGdY6pCu1CJVF6O9CKAGjxFs5vZtFKQGTRXwl0lP0l0ksbBmrQ?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUHU_xoUQx3TgE23JfIib9sqM0C1NB7b75DmzpY3bI42luGGgi4fOiDO2hPuxMN7FniTxL5sLJrWXQXoqIMC3AiQ48bmMjKzncMDS8CnMiKGXs2O2Feb2Yc2QC58ewRUR6k_wiVVCG51xjudqyX4GTCcHlgXDpNlV4o8J5ftmdxGeuO_wvQWN61vLyCb_wE6ug https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ojou144s8tocds0kvi6757ucc8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYej0_M3pNo8PehHksbZ6qzO-4bLe4MNrkWS6j3P2Yh3AnOq9bfaQRAcXpIqELKzV3Zyid64vVyu9f4qVsZRZXoH_peIwzcVjDFSAXBOPSv10R81dspRw7cSyuzwluYZOjsCON5cVJGdY6pCu1CJVF6O9CKAGjxFs5vZtFKQGTRXwl0lP0l0ksbBmrQ?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.5787339,45.4971086,0"
+							}
+						},
+						{
+							"name": "300 Brosseau, 302 Delorimier",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUFXpLZ7si9oQMf_MCrPhIQigr_8XrCTaBdT5-Qnt29tN2f1VgjYmMdocZHdwzbVvvkw48qZXEHNfnbcyueLdyv9OWuuljgH3ksk7b5mGfSCY8O1CUrPa7sy4E9qwlwI1G080yZvJwrpAf_z5WPqY6RVezplKZpiE_1odyltFHV8AyvQ-KClxY7V2p_XC-ElEg\" height=\"200\" width=\"auto\" /><br><br>Le Repos Saint-François d'Assise<br><br><img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/11qembp93ftn2i5c0e6soojkhk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va3JAPBULSUMDORA1yxdR7AA7v_V7KfM16dt_ijtllQASuR7QtVeSSNYq02x8aTEh_IvWpajkqQGvZT43K8Qjs8J1KQcGA5t3e0qgK6tdLsPBM7QOmomx0PMGoo0PdKIOKRxZ8ypZS_WgVK9gSIWJ4sNXbyM33YmaxYwZnFqJpYGQ6pMTsjwjj5dO7G?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUFXpLZ7si9oQMf_MCrPhIQigr_8XrCTaBdT5-Qnt29tN2f1VgjYmMdocZHdwzbVvvkw48qZXEHNfnbcyueLdyv9OWuuljgH3ksk7b5mGfSCY8O1CUrPa7sy4E9qwlwI1G080yZvJwrpAf_z5WPqY6RVezplKZpiE_1odyltFHV8AyvQ-KClxY7V2p_XC-ElEg https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/11qembp93ftn2i5c0e6soojkhk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va3JAPBULSUMDORA1yxdR7AA7v_V7KfM16dt_ijtllQASuR7QtVeSSNYq02x8aTEh_IvWpajkqQGvZT43K8Qjs8J1KQcGA5t3e0qgK6tdLsPBM7QOmomx0PMGoo0PdKIOKRxZ8ypZS_WgVK9gSIWJ4sNXbyM33YmaxYwZnFqJpYGQ6pMTsjwjj5dO7G?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.54248,45.586757,0"
+							}
+						},
+						{
+							"name": "335 école St-Arsène",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUFu9-kbWMRLKzMzvEi46d8bX-IvzWDw3xFEMcnqEy2pfqkDVvNPMcLFHA1qrhl7xSxb1-nVJFC5HXRpp490vfeyTQsXUfiuCQ6xCJXcARGcwSk1OvOS0X2Rby_wqJ_uegfUWAT56u9ws3_C4Tqa5wM9s8DlXuPiNiZGvYsTiUs7HWCqsMF1qTXaRiwvYgCfBw\" height=\"200\" width=\"auto\" /><br><br>6972 Ave Christophe-Colomb<br><br><img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/bvu915lp9e614a1nibjo3fok18/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va2gCbf_8hcp0U4i09Z8-TPHtE-MS0e-XyHtygRX8tAfUYp1NNw1SA9OpyblSWGHyF3W9mUVrTwXL-SyfoX3YDNVf2VHfSigAZO_7OFi4yS-yTJymHRHDCoUtKueInRewFOnf5s0nHx8aJXqootf63CNd--rq6u8Gh1zKpkiuBlCe4QI92R6OMK4JL5?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/207ngrnsfg4fk8thkbgs420es8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZ-NC64V4q--_8VAoaqBCm3GUKJp9DeiYgeqBAn8ZJVMy92lIxCCqaP-KmvxQkoXV1T45bstCQygQ-E9d9FgzqqqtYxvoAUKEb2fFMjZSWYDdhnuAebLEiJgeaIyoSStU7NMCiYgqvRPj2B3YBkbFs-BzltzA8ePmHHhRQf9qTZUlwHdpFsMqp_WXEF?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUFu9-kbWMRLKzMzvEi46d8bX-IvzWDw3xFEMcnqEy2pfqkDVvNPMcLFHA1qrhl7xSxb1-nVJFC5HXRpp490vfeyTQsXUfiuCQ6xCJXcARGcwSk1OvOS0X2Rby_wqJ_uegfUWAT56u9ws3_C4Tqa5wM9s8DlXuPiNiZGvYsTiUs7HWCqsMF1qTXaRiwvYgCfBw https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/bvu915lp9e614a1nibjo3fok18/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_va2gCbf_8hcp0U4i09Z8-TPHtE-MS0e-XyHtygRX8tAfUYp1NNw1SA9OpyblSWGHyF3W9mUVrTwXL-SyfoX3YDNVf2VHfSigAZO_7OFi4yS-yTJymHRHDCoUtKueInRewFOnf5s0nHx8aJXqootf63CNd--rq6u8Gh1zKpkiuBlCe4QI92R6OMK4JL5?session=0&fife https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/207ngrnsfg4fk8thkbgs420es8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZ-NC64V4q--_8VAoaqBCm3GUKJp9DeiYgeqBAn8ZJVMy92lIxCCqaP-KmvxQkoXV1T45bstCQygQ-E9d9FgzqqqtYxvoAUKEb2fFMjZSWYDdhnuAebLEiJgeaIyoSStU7NMCiYgqvRPj2B3YBkbFs-BzltzA8ePmHHhRQf9qTZUlwHdpFsMqp_WXEF?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.6101407,45.5413635,0"
+							}
+						},
+						{
+							"name": "344 Vincent-D'indy",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUHx9ssJpZ8RH7o8AX4TRAcWTuLbxDA2SQmx5tEosQW40YjlKpb2Fhh4o61GA6Yzogrse3n-zA_7OriVmX3IaBIgP1FavXGqcDRtxa_yVP68UEAmgaH9w0OHQfaij309ZaNIfDM8tYbXpZj24_roXCvjnzqJYxz1g2BCbx7KOytK69waikMxU96Ww2xPshcg\" height=\"200\" width=\"auto\" /><br><br>28 Avenue Vincent-D'indy<br><br><img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ka27hcqonn3dqerg1ji42sv9gg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbfmEmo1hRgNNrDUi5FXpkSwkG5czSiRdSfgJ28Bkdz1CQWTcKH3olcGlfDJqFUV_qi9hP0679Ncfi-3ER2klwVzril0mJw4PqyyMZO4Ud7T6pfHsEnM2-dGa3pJjSw2Cq3_dSM5LEwQTVEYgiuTSF-rS1M42JklfJ8G3llkUJnk-5lSKot9ARe_INb?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUHx9ssJpZ8RH7o8AX4TRAcWTuLbxDA2SQmx5tEosQW40YjlKpb2Fhh4o61GA6Yzogrse3n-zA_7OriVmX3IaBIgP1FavXGqcDRtxa_yVP68UEAmgaH9w0OHQfaij309ZaNIfDM8tYbXpZj24_roXCvjnzqJYxz1g2BCbx7KOytK69waikMxU96Ww2xPshcg https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ka27hcqonn3dqerg1ji42sv9gg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbfmEmo1hRgNNrDUi5FXpkSwkG5czSiRdSfgJ28Bkdz1CQWTcKH3olcGlfDJqFUV_qi9hP0679Ncfi-3ER2klwVzril0mJw4PqyyMZO4Ud7T6pfHsEnM2-dGa3pJjSw2Cq3_dSM5LEwQTVEYgiuTSF-rS1M42JklfJ8G3llkUJnk-5lSKot9ARe_INb?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.6139385,45.5112252,0"
+							}
+						},
+						{
+							"name": "110 Rio Tinto",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUHKMlDJe6vxqOukIh_gv63HzUrYSramkjQQSCGNzX0Q65llObT8NsAkWTb9B6Gwpu5p998DRKdGM9W65lekphPd4JQINd6mi_X4jRNrhvkXy72S2sxbLk282czCLrvfchJN38cJygGXZFm2pmzPXVDrz3fBtPRF4fUHIl8DBADzu7kPXSWRBNm0S4q1_zpz\" height=\"200\" width=\"auto\" /><br><br>Planétarium Rio Tinto <br><br><img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/e8eb9b8cdnuc824lcmtq89h7jo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYfb6JSjnbNcV9u5bYv6YtqVZYqOkHotsJd3pWciUxUt0T14TfWtDlyvW9xFnifh0L-Cfz6cdMAZUSg2yyxynLaDkGNvjUuZhqra_MDZrFb6KtmKnsHfFSbPVAJX-3LUPspvv3BLBmH5fZd-OJRf8suVVdetXLxAV_-QuRRFf1L38CduRy3J41c_uxT?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/v4sn6n1k7mbrtbmnlgrpvm1s7o/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaAoc_dH2APJm6VkTJSbdJ2D06gioQ9Oy2P5S2SsGsOgOdfqu2ARjP1oqQ5xsxLy4MIVwV4A6T8enjOn_oGhzzYMWvTHxj1itGL1jsx3Y0wUnuJUvx0KFm5DSV6R8NIzmvhnDZLspNFnjxA7FOiXwIwRujLuLYTt4hYdkf-C_70zWG2XyPCrSKoZ4Tk?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUHKMlDJe6vxqOukIh_gv63HzUrYSramkjQQSCGNzX0Q65llObT8NsAkWTb9B6Gwpu5p998DRKdGM9W65lekphPd4JQINd6mi_X4jRNrhvkXy72S2sxbLk282czCLrvfchJN38cJygGXZFm2pmzPXVDrz3fBtPRF4fUHIl8DBADzu7kPXSWRBNm0S4q1_zpz https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/e8eb9b8cdnuc824lcmtq89h7jo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYfb6JSjnbNcV9u5bYv6YtqVZYqOkHotsJd3pWciUxUt0T14TfWtDlyvW9xFnifh0L-Cfz6cdMAZUSg2yyxynLaDkGNvjUuZhqra_MDZrFb6KtmKnsHfFSbPVAJX-3LUPspvv3BLBmH5fZd-OJRf8suVVdetXLxAV_-QuRRFf1L38CduRy3J41c_uxT?session=0&fife https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/v4sn6n1k7mbrtbmnlgrpvm1s7o/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaAoc_dH2APJm6VkTJSbdJ2D06gioQ9Oy2P5S2SsGsOgOdfqu2ARjP1oqQ5xsxLy4MIVwV4A6T8enjOn_oGhzzYMWvTHxj1itGL1jsx3Y0wUnuJUvx0KFm5DSV6R8NIzmvhnDZLspNFnjxA7FOiXwIwRujLuLYTt4hYdkf-C_70zWG2XyPCrSKoZ4Tk?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.5506022,45.5602255,0"
+							}
+						},
+						{
+							"name": "390 Jardin Botanique",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUEM77CaeL89zUmViVvc3Id807ZKbsm5UdWSLQv76ITXG06nN1ozat_hroz8vQcIt5Dfk2iPaMMc97V2iBnnV4r1r3Vv7ARMjgvSZfvzi7bwPwzsK5pjRKsAcAduAPHMChGnoOqcNwqQs-z4rr2DHnixXZsQSd0Snukl1tRZvxwC0w2j62Xw941OOrY3w7vEqA\" height=\"200\" width=\"auto\" /><br><br>4101 Sherbrooke Est<br><br><img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/pfda1fike0etg73homm0aneiik/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaQ-_RYJ_3Z3bFx6PoeHZXpvm9NqPnzgptbyVKZLtKwWGvg7BVBhz1yUftRJfeL5EWYKfqo2LSfxO59lYXdLn-gSPbBnKXIKpPKSR0Jfvclm8aRDaBgbXid3g6A48vcMj90-_S3uNMKndU-dB80HiUlHyzdI7VK-lFnLoP1lZvqDE0Im1Wv-suKW8l_?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/7og8lm7rv3g4gil5n60ie333n8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYpaqmbIP_-Q9cFQ3j7pWZPqUBNtljZZIIbuo4Wbaq-bYPfYaFy0mD8I_Z1Il2ZcjZVjUK2kTHpLSfth_eUdyiqvqV7gpmgKnofqt9VT22tveNJoAJ4yBizlUw6HHRgesfqvVALGQEdGbylA1pRD023Auh1ra6YuDBicaOgt2eR7vlrOhODfvEn3sQw?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-F9F7A6-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUEM77CaeL89zUmViVvc3Id807ZKbsm5UdWSLQv76ITXG06nN1ozat_hroz8vQcIt5Dfk2iPaMMc97V2iBnnV4r1r3Vv7ARMjgvSZfvzi7bwPwzsK5pjRKsAcAduAPHMChGnoOqcNwqQs-z4rr2DHnixXZsQSd0Snukl1tRZvxwC0w2j62Xw941OOrY3w7vEqA https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/pfda1fike0etg73homm0aneiik/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaQ-_RYJ_3Z3bFx6PoeHZXpvm9NqPnzgptbyVKZLtKwWGvg7BVBhz1yUftRJfeL5EWYKfqo2LSfxO59lYXdLn-gSPbBnKXIKpPKSR0Jfvclm8aRDaBgbXid3g6A48vcMj90-_S3uNMKndU-dB80HiUlHyzdI7VK-lFnLoP1lZvqDE0Im1Wv-suKW8l_?session=0&fife https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/7og8lm7rv3g4gil5n60ie333n8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYpaqmbIP_-Q9cFQ3j7pWZPqUBNtljZZIIbuo4Wbaq-bYPfYaFy0mD8I_Z1Il2ZcjZVjUK2kTHpLSfth_eUdyiqvqV7gpmgKnofqt9VT22tveNJoAJ4yBizlUw6HHRgesfqvVALGQEdGbylA1pRD023Auh1ra6YuDBicaOgt2eR7vlrOhODfvEn3sQw?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.5585523,45.5564206,0"
+							}
+						},
+						{
+							"name": "044, 045, 137, 138, AEB",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUEhV0OUo8LxFQ48w5vriRNMHeotoPn_FFwmppxNj9CMNJS_SvOANkUJ2AFQGYj13xAnN2nshLZctBMMLa94ktItedynJmV6pUPkGjqw1isHfUBH5TvonUashRiZ_g51nzHGc2DqOu9yDdqRmxZHgunFwcsvB0JCfza0Cioy1F1JVL43BuuSGopNx9EkJFNM2w\" height=\"200\" width=\"auto\" /><br><br>Avenue de la Brunante",
+							"styleUrl": "#icon-503-3F5BA9-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUEhV0OUo8LxFQ48w5vriRNMHeotoPn_FFwmppxNj9CMNJS_SvOANkUJ2AFQGYj13xAnN2nshLZctBMMLa94ktItedynJmV6pUPkGjqw1isHfUBH5TvonUashRiZ_g51nzHGc2DqOu9yDdqRmxZHgunFwcsvB0JCfza0Cioy1F1JVL43BuuSGopNx9EkJFNM2w",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.6175256,45.5096859,0"
+							}
+						},
+						{
+							"name": "393 Louis-H Lafontaine",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUFRTcXLo5fyExpTR-lWEHAkuCH50JcLmvF0zxyIKPeiYVK_FM-n7pqgn6HLOXiBJRzv2_gYlR3q-yi1E__vId-DNo0PR2M2pEt04Zu1Q7z0RUkRNaBpVcMPM-zCZvrJ9qChrdRF7heD5GAJMf5_ocO2kU72z4_qyvtrFbuXluGUzOxvc0uErk1pvqaC5qwa\" height=\"200\" width=\"auto\" /><br><br><br><br><img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ur8sds5ta9spgha97o078mfvek/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbpS7Il0BZTwnOxHUqjjmxVseF7iSjVYSzVgHdHm36HgkRrwk4knX3ZwF0SzaE0LWflZL3-KjgSA9zidV6sQ2NfQZY0aaT_xVsTHZwveORKfXaPbj1O9_QHX9rIx6rc8TKpIqElNvpWzVBh5X2LgrtPvlQ1z8-4bFNmwTXklrXzcw7cElpjy0KAIfmy?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/mlupjqm4r8e51gs38aim2rs7rk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZJshIozZGR93WpMeybxbWkaUNEAP38ihnzmbJBSuj_gRU8Nfz7ty-DZ9KucCz7lGyYvYXYq_203GHjgmu63RyYXEeZPPJUJJh5ff-4p3pTrXNumB6Qa5c-UkXH1dAtPUhk9JEh5wJ72vvruE5_bwR-z66ffZPslU7330l5M2MaVEZY7DC2UdD5XDZH?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUFRTcXLo5fyExpTR-lWEHAkuCH50JcLmvF0zxyIKPeiYVK_FM-n7pqgn6HLOXiBJRzv2_gYlR3q-yi1E__vId-DNo0PR2M2pEt04Zu1Q7z0RUkRNaBpVcMPM-zCZvrJ9qChrdRF7heD5GAJMf5_ocO2kU72z4_qyvtrFbuXluGUzOxvc0uErk1pvqaC5qwa https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ur8sds5ta9spgha97o078mfvek/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbpS7Il0BZTwnOxHUqjjmxVseF7iSjVYSzVgHdHm36HgkRrwk4knX3ZwF0SzaE0LWflZL3-KjgSA9zidV6sQ2NfQZY0aaT_xVsTHZwveORKfXaPbj1O9_QHX9rIx6rc8TKpIqElNvpWzVBh5X2LgrtPvlQ1z8-4bFNmwTXklrXzcw7cElpjy0KAIfmy?session=0&fife https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/mlupjqm4r8e51gs38aim2rs7rk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZJshIozZGR93WpMeybxbWkaUNEAP38ihnzmbJBSuj_gRU8Nfz7ty-DZ9KucCz7lGyYvYXYq_203GHjgmu63RyYXEeZPPJUJJh5ff-4p3pTrXNumB6Qa5c-UkXH1dAtPUhk9JEh5wJ72vvruE5_bwR-z66ffZPslU7330l5M2MaVEZY7DC2UdD5XDZH?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.5282212,45.5884618,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Laurentides / Lanaudière",
+					"Placemark": [
+						{
+							"name": "063 Ste-Béatrix",
+							"description": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/h79nbhr4c43hicf66h47c16olg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbbMQSgZFa22Pgape5U0lC4ky3Eusetm5CjTXqPjASfA8OM0d7ruwPDh_5Y8DmaYngB6UrHAe0XcrEr9NrCsPURkjwk24ESrXKYOOG_a6te0whlPxC4pZ5h5lQVrLQt7jb2omrqrUZ5kL1Njyi3qsTvQgESK4LGZapRZ45mDGXT3LqLPUPW4jZoZZUk?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>1085 Rang du Havre Familial",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/h79nbhr4c43hicf66h47c16olg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbbMQSgZFa22Pgape5U0lC4ky3Eusetm5CjTXqPjASfA8OM0d7ruwPDh_5Y8DmaYngB6UrHAe0XcrEr9NrCsPURkjwk24ESrXKYOOG_a6te0whlPxC4pZ5h5lQVrLQt7jb2omrqrUZ5kL1Njyi3qsTvQgESK4LGZapRZ45mDGXT3LqLPUPW4jZoZZUk?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.6453832,46.236342,0"
+							}
+						},
+						{
+							"name": "295 Lac Taureau",
+							"styleUrl": "#icon-503-F9F7A6-labelson-nodesc",
+							"Point": {
+								"coordinates": "-73.8693666,46.761076,0"
+							}
+						},
+						{
+							"name": "330 Borromée",
+							"description": "<img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/vr5bbk3btc1ufg20lq9ktbva5s/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbZsQ66S2rxWxuvjyQPOc9AMqzOYlS1FZEu_FptchPRJh1kv3CA7f_FzQWRRveNCabfvlZ5ijghw-BE-hHtVewKmcrZ7AqYmjYg-ubHXCemsBoqeVJygj8QDOmfPlS8nWA7qNDGJPUXuJXBayfvN6tRivdJv7LPlRwJLEqemTs2fzDA0cewWnlIQVOF?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>120 boul. l'Assomption St-Charles-Borromée",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/vr5bbk3btc1ufg20lq9ktbva5s/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbZsQ66S2rxWxuvjyQPOc9AMqzOYlS1FZEu_FptchPRJh1kv3CA7f_FzQWRRveNCabfvlZ5ijghw-BE-hHtVewKmcrZ7AqYmjYg-ubHXCemsBoqeVJygj8QDOmfPlS8nWA7qNDGJPUXuJXBayfvN6tRivdJv7LPlRwJLEqemTs2fzDA0cewWnlIQVOF?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.4763855,46.0473434,0"
+							}
+						},
+						{
+							"name": "358 biblio St-Damien",
+							"description": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/oe79tk8g2a6ac2dk7qhmrl1vr0/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vY0lU78d8UxcMtfrXicyDBq5vv-MddS4wMJqAPVhtTjTyRsYnOko0Ma2hMUkhy9VxIGGLBg-UupiQxHu7I7WhJWXoohdAOHn7MnuyXS4fP9XcrEeZF7-t9r-1b3Osi6FtFIFt2Fz1lcWAdMe28GdHQ7rb1qLt1Oo9J7SWyipZ6KOXnB5hWL7CZp21Mq?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>2045 Rue Taschereau St-Damien de Brandon",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/oe79tk8g2a6ac2dk7qhmrl1vr0/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vY0lU78d8UxcMtfrXicyDBq5vv-MddS4wMJqAPVhtTjTyRsYnOko0Ma2hMUkhy9VxIGGLBg-UupiQxHu7I7WhJWXoohdAOHn7MnuyXS4fP9XcrEeZF7-t9r-1b3Osi6FtFIFt2Fz1lcWAdMe28GdHQ7rb1qLt1Oo9J7SWyipZ6KOXnB5hWL7CZp21Mq?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.4795975,46.3347131,0"
+							}
+						},
+						{
+							"name": "370 église St-Damien",
+							"description": "<img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/hlul3ovtt3btfv3ou362duqsoo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYGQzbhbgWVijUAY2p6wgbZ8hRipwjsYrs-KlxB8ACEc7rFvSSzfHa5gxH-AMpgIDDVmDB-EYznfz42p33kjymcCzjmgwEww6H2NMWxRW8Y3AdYda9GmA-hbsnLI1iwDVoEYphymBGBPzsinH2qSPxHRridIHhfj0KT2rbnN8OphSwcb3vzIeRJvm1h?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/hlul3ovtt3btfv3ou362duqsoo/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYGQzbhbgWVijUAY2p6wgbZ8hRipwjsYrs-KlxB8ACEc7rFvSSzfHa5gxH-AMpgIDDVmDB-EYznfz42p33kjymcCzjmgwEww6H2NMWxRW8Y3AdYda9GmA-hbsnLI1iwDVoEYphymBGBPzsinH2qSPxHRridIHhfj0KT2rbnN8OphSwcb3vzIeRJvm1h?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.4792675,46.332484,0"
+							}
+						},
+						{
+							"name": "200 J. April",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUHbnSu2A8UnvDpnRa1AEty_vHDUA1dENjistXHTyqpJrawvrPGy6HmeWKPuk8QqtnGwKJJCUEXwbsrAjO4wDTm1PgWhbkItNCeU8kN3-Hny4SwfPz2C-qyA-gJDxmezw6BuQ0qe4818jSJ03MJ8aYoAKLvnhm7HkP_qwKyztRKE0znvGtFsCpvbcQ2dWpaw\" height=\"200\" width=\"auto\" /><br><br>153 Chemin de la Rivière-à-Simon<br><br><img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/n8jerct4ndqjno6kioi8poartg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vak_PkKp45bwwTmgpmYr8rNycIRm15UfeXqOL2YGGewzjQOhwaIrz9mzKRjokHYO8Fh1bHf216-QwoTmYUV010BevwFvs1qaknV-CH1eyBmB-YbJwI4Vq3gQj3laYSKukbJBvW84wAFdQUFWb4Tbou4VRB5pbZ2_TJdrMA7T3XLg4RFHs5fVPYxxCFb?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUHbnSu2A8UnvDpnRa1AEty_vHDUA1dENjistXHTyqpJrawvrPGy6HmeWKPuk8QqtnGwKJJCUEXwbsrAjO4wDTm1PgWhbkItNCeU8kN3-Hny4SwfPz2C-qyA-gJDxmezw6BuQ0qe4818jSJ03MJ8aYoAKLvnhm7HkP_qwKyztRKE0znvGtFsCpvbcQ2dWpaw https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/n8jerct4ndqjno6kioi8poartg/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vak_PkKp45bwwTmgpmYr8rNycIRm15UfeXqOL2YGGewzjQOhwaIrz9mzKRjokHYO8Fh1bHf216-QwoTmYUV010BevwFvs1qaknV-CH1eyBmB-YbJwI4Vq3gQj3laYSKukbJBvW84wAFdQUFWb4Tbou4VRB5pbZ2_TJdrMA7T3XLg4RFHs5fVPYxxCFb?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-74.165265,45.9056179,0"
+							}
+						},
+						{
+							"name": "245 Fairmount Hotel",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUG8rF1YQG-jB-O_no3FmTAEu2rMdjI6vuxJ9Qz95ShhprtMDmH8n-h9BW9CHvF3b1ebdWQt_2tUjbv5u67Dxbwx2n_gN1I9MBq55bVr25xWE42yJ-64iexW-491sPnwBkSzeBP1dITYhp5j-AnpPXsV6YRBLeWzvTIUUTDU3SC_iHYtRpfJhLEDLxCoWXi3aQ\" height=\"200\" width=\"auto\" /><br><br>3045 Chemin de la Chapelle<br><br><img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ecuqvh6ka8h59enbcm4vh6ir2k/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYN8JsZCdIi5FG3grOph19CBng3NsLI4ZX8v36JeZ4AlIy1GuL_T2wY7GqtXo7BmdCFS1HE1z73eq6s6RvkP3bbHOEiU-S3J8j9WRBdgYimlisSRBZq39UIrU62CNtuUbC5jqHJX0az7NneMbThFoeeAaz3oaFB2KPKVlmcER6OY_v5LZeV65_d9yJW?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/70q1gosa4h1g496diuh8ee9qj4/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZ1zRVaPEWahv12yGhHmCiO6-6UcdhR62UjDuT0HxpYF8bg3GLcKnWsi7ccAUg6thcRaEIrwGmKUdfZN1NOzorI-1nMWsRg9MHqHILuBw8CUt64BeLapjbSRmB-3Ye2r81-bjoosyNBPjl5RJC2sORgi5YVxtX1WUEdD-N7mQC2hyeJPap11wWZSLek?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUG8rF1YQG-jB-O_no3FmTAEu2rMdjI6vuxJ9Qz95ShhprtMDmH8n-h9BW9CHvF3b1ebdWQt_2tUjbv5u67Dxbwx2n_gN1I9MBq55bVr25xWE42yJ-64iexW-491sPnwBkSzeBP1dITYhp5j-AnpPXsV6YRBLeWzvTIUUTDU3SC_iHYtRpfJhLEDLxCoWXi3aQ https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/ecuqvh6ka8h59enbcm4vh6ir2k/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYN8JsZCdIi5FG3grOph19CBng3NsLI4ZX8v36JeZ4AlIy1GuL_T2wY7GqtXo7BmdCFS1HE1z73eq6s6RvkP3bbHOEiU-S3J8j9WRBdgYimlisSRBZq39UIrU62CNtuUbC5jqHJX0az7NneMbThFoeeAaz3oaFB2KPKVlmcER6OY_v5LZeV65_d9yJW?session=0&fife https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/70q1gosa4h1g496diuh8ee9qj4/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZ1zRVaPEWahv12yGhHmCiO6-6UcdhR62UjDuT0HxpYF8bg3GLcKnWsi7ccAUg6thcRaEIrwGmKUdfZN1NOzorI-1nMWsRg9MHqHILuBw8CUt64BeLapjbSRmB-3Ye2r81-bjoosyNBPjl5RJC2sORgi5YVxtX1WUEdD-N7mQC2hyeJPap11wWZSLek?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-74.5849566,46.2149778,0"
+							}
+						},
+						{
+							"name": "276 Gare Mont-Rolland",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUFup8zzBz2f1V79BROj83MJTpE8mMR00p5jiGo7cIbumt-S5efPfdnnRlCD9dtW5aEIRZYkz9RYyeyq1qHq2ptGexjtIuNLLtMhympZcNrQjbLnZQNSlt0R8Kj7V9wdKieoyqHEteyNGUtrDP9afhnLi-YArvbhQ12qf_L6LIKxvOar74MhfEDSoCkLyeGitQ\" height=\"200\" width=\"auto\" /><br><br>1000 Rue Saint Georges<br><br><img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/qgqkmbli3gp01rt7fqet0jfoqk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYrPfRERTbhxZjxN12t-cf7sGKGOkY4R_CFgeraa8VSoZGqTI3DousBGfVTmDb6Qnl1Qtc9r-GWZTs64d1B5CUxZjy7cPWf2NRNUSrXT1F9sofUkiuD1dEjdh0n505fR-JSxnpHKDEdsW9ICSSh9ePfnfkanek8GKkBYFR1YYjy06MXNh_apiZgpg7d?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/vp3ettr1aj9mmgdrp2tqj1kf3s/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZDCbmsZpB-SQBh_qdZmmYfsZQLI4TJXhk1oNbKLwxtC4qUmGROvsvr6erHSdRrOKMlfAadDpp5Xe29vRwc2KCPBlxgqDoOiUH0r6S8G_z0x3t2zJivnkJ6ViiGdyqVCvFLWugHDFEsleHPP8ioE3YTM1KLLkc1I98kNh9WUiWu1CMkrvS7_NTE0T9A?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/v0qu5p1rl2b03ertlasfj6o54s/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZrVrC4I1Sdjtmwrl_ubBDx0q82vDz9FIFKJYSHTzVBO3y6uToT9uh3JXlQNIGNA9qIIv6f76oIQ71cr0mcmeJl1vq2GD9q2x2ndTOmosBKQpuJTmKJV3PY80v_hUNMxhzZLgl9yMje0Zf1Hc96Lo9Eg4qidd8UPgP2E1ymYAgmvQ2iU0CuKklMuT6X?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUFup8zzBz2f1V79BROj83MJTpE8mMR00p5jiGo7cIbumt-S5efPfdnnRlCD9dtW5aEIRZYkz9RYyeyq1qHq2ptGexjtIuNLLtMhympZcNrQjbLnZQNSlt0R8Kj7V9wdKieoyqHEteyNGUtrDP9afhnLi-YArvbhQ12qf_L6LIKxvOar74MhfEDSoCkLyeGitQ https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/qgqkmbli3gp01rt7fqet0jfoqk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYrPfRERTbhxZjxN12t-cf7sGKGOkY4R_CFgeraa8VSoZGqTI3DousBGfVTmDb6Qnl1Qtc9r-GWZTs64d1B5CUxZjy7cPWf2NRNUSrXT1F9sofUkiuD1dEjdh0n505fR-JSxnpHKDEdsW9ICSSh9ePfnfkanek8GKkBYFR1YYjy06MXNh_apiZgpg7d?session=0&fife https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/vp3ettr1aj9mmgdrp2tqj1kf3s/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZDCbmsZpB-SQBh_qdZmmYfsZQLI4TJXhk1oNbKLwxtC4qUmGROvsvr6erHSdRrOKMlfAadDpp5Xe29vRwc2KCPBlxgqDoOiUH0r6S8G_z0x3t2zJivnkJ6ViiGdyqVCvFLWugHDFEsleHPP8ioE3YTM1KLLkc1I98kNh9WUiWu1CMkrvS7_NTE0T9A?session=0&fife https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/v0qu5p1rl2b03ertlasfj6o54s/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZrVrC4I1Sdjtmwrl_ubBDx0q82vDz9FIFKJYSHTzVBO3y6uToT9uh3JXlQNIGNA9qIIv6f76oIQ71cr0mcmeJl1vq2GD9q2x2ndTOmosBKQpuJTmKJV3PY80v_hUNMxhzZLgl9yMje0Zf1Hc96Lo9Eg4qidd8UPgP2E1ymYAgmvQ2iU0CuKklMuT6X?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-74.1188614,45.940832,0"
+							}
+						},
+						{
+							"name": "299 Labelle",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUE_ESiQOuBHhrmsD4b9F2t6wEeuY5-iKTUz-N5_kOwGroEtpAfJwOQfR7oQcIORNRCut7V0i1YSclXCRyFoPe5ABt-VbMJSTWvJvbXHsADlxLSQsosowqTLANfKVIqmKPBiBpjJA27soagVmUY1_9TkoV8GlMOh2e93bPOQdlkCOsMhSOL3VenPwS6BKoVcPA\" height=\"200\" width=\"auto\" /><br><br>Piste du Ptit train du nord<br><br><img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/7f180nad6j5lrbbffkfqquipsk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZivem9jPoityU9C-PSGD-57ptEXQBbpAf7zM2F53Xt4fw5GLygT49ui0RJb2Mn1vAiKf8aCBKoNNY-_bJNO41QnNBopZLZ0weiTUMVqZvToEoFZNXdBAXZgEHEUIb8dLH0TkVlXdwn4KSFQKETebKNMdJU671jmoqrV9TUN3tI9RXYfyne4chdAW_L?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/0c5mm3slimhg3t3i8c3nfc0sj8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbVcqciLA8KWARqFNvE81BV75JNk8NpbHmWDdIl6H2NK5DVM4ZH9tvQ7DUVgL0VMhR86QXclur_e3pc3KgTZ4ya6a95tG3Ns9J7ltooAZsSqNmabNSM6typsN8DLqrO38OgOzIDg0bYZLBwl3KFgzkA6YfJ2fRcY7tzyd6bc-25q8I-PIhkcmG3Y-Li?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/o85j4u2gg7v0ji8pda8pe0hfk8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYZWVdnAm8cX5w19LW530ykVxGW96z5TaF1UY8cljB3wnD-BixkkYt139o85Qxb-5hZ3oZc7PRAMn0sr_hleqeFJ1gGnbxZZ_ff1UrVW2GdyIbjFzLYq_C-FHTZH3K9yvilFyTd_vo7aIyro1oCR6Bf-uNDumCo6WiFWZhZqTdMQFalh50YOUxnM4ZX?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUE_ESiQOuBHhrmsD4b9F2t6wEeuY5-iKTUz-N5_kOwGroEtpAfJwOQfR7oQcIORNRCut7V0i1YSclXCRyFoPe5ABt-VbMJSTWvJvbXHsADlxLSQsosowqTLANfKVIqmKPBiBpjJA27soagVmUY1_9TkoV8GlMOh2e93bPOQdlkCOsMhSOL3VenPwS6BKoVcPA https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/7f180nad6j5lrbbffkfqquipsk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vZivem9jPoityU9C-PSGD-57ptEXQBbpAf7zM2F53Xt4fw5GLygT49ui0RJb2Mn1vAiKf8aCBKoNNY-_bJNO41QnNBopZLZ0weiTUMVqZvToEoFZNXdBAXZgEHEUIb8dLH0TkVlXdwn4KSFQKETebKNMdJU671jmoqrV9TUN3tI9RXYfyne4chdAW_L?session=0&fife https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/0c5mm3slimhg3t3i8c3nfc0sj8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vbVcqciLA8KWARqFNvE81BV75JNk8NpbHmWDdIl6H2NK5DVM4ZH9tvQ7DUVgL0VMhR86QXclur_e3pc3KgTZ4ya6a95tG3Ns9J7ltooAZsSqNmabNSM6typsN8DLqrO38OgOzIDg0bYZLBwl3KFgzkA6YfJ2fRcY7tzyd6bc-25q8I-PIhkcmG3Y-Li?session=0&fife https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/o85j4u2gg7v0ji8pda8pe0hfk8/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYZWVdnAm8cX5w19LW530ykVxGW96z5TaF1UY8cljB3wnD-BixkkYt139o85Qxb-5hZ3oZc7PRAMn0sr_hleqeFJ1gGnbxZZ_ff1UrVW2GdyIbjFzLYq_C-FHTZH3K9yvilFyTd_vo7aIyro1oCR6Bf-uNDumCo6WiFWZhZqTdMQFalh50YOUxnM4ZX?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-74.7353816,46.2831083,0"
+							}
+						},
+						{
+							"name": "320 Rivière-Rouge",
+							"description": "<img src=\"https://lh3.googleusercontent.com/umsh/AFiHsUEuJULATU4kL284IRgv5IdPGxNxYUulR99caYKzvZjTdM6AfHCICsacI_YMk9BDF5gc6rngfDX4G20QT3cQBk-CVnUHkl9ig3NTOYXWfHirDvZPIrkmwcYqA1r1kixk-hlXbSugtI-xaTRGqdehHtfKvZsXRKcZgOaaLYu0KvcyqHHJ0OiyHvMCoBB_c15N\" height=\"200\" width=\"auto\" /><br><br>720 rue L'Annonciation  /Rivière-Rouge<br><br><img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/6pg2m3o96gthah1ruk9b5n3d9c/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYaE54oXihsw5NZ-9ii5OMx_Xsz38f_AV9gXbYOX9XH53HCUNorutxNg-6NB27m0pCYJ_MKBpoDQ-jiikqSM0cWKWc3s_WWbSRbOvXOvhOxXUGs8vPl8QMSyXW28UipHrYaDLKPh24Bot83XnvnE8T1KDAdLUzuh2wISOMp-3OtjfqmgyqKKBLJAhnU?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/kskuskm15utv9vjnuhh4t71pkk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYV07lYytcXNYeke2TrvtTvWNXRH0JnyVANt_TNjph3PgrgJbkiGYE8H-Q25HWkuFcBMvNZRyqIELPoigU1AHyb2oU-spmZoYMe4pM7C-GAsORm_QQ-r1zTo5vEwhXjr9XB20LBLXilUrnabgBo37jewoGsM0Z6mvgldKhzTkJelHyd4TTnnZvu8mQu?session=0&fife\" height=\"200\" width=\"auto\" />",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://lh3.googleusercontent.com/umsh/AFiHsUEuJULATU4kL284IRgv5IdPGxNxYUulR99caYKzvZjTdM6AfHCICsacI_YMk9BDF5gc6rngfDX4G20QT3cQBk-CVnUHkl9ig3NTOYXWfHirDvZPIrkmwcYqA1r1kixk-hlXbSugtI-xaTRGqdehHtfKvZsXRKcZgOaaLYu0KvcyqHHJ0OiyHvMCoBB_c15N https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/6pg2m3o96gthah1ruk9b5n3d9c/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYaE54oXihsw5NZ-9ii5OMx_Xsz38f_AV9gXbYOX9XH53HCUNorutxNg-6NB27m0pCYJ_MKBpoDQ-jiikqSM0cWKWc3s_WWbSRbOvXOvhOxXUGs8vPl8QMSyXW28UipHrYaDLKPh24Bot83XnvnE8T1KDAdLUzuh2wISOMp-3OtjfqmgyqKKBLJAhnU?session=0&fife https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/kskuskm15utv9vjnuhh4t71pkk/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYV07lYytcXNYeke2TrvtTvWNXRH0JnyVANt_TNjph3PgrgJbkiGYE8H-Q25HWkuFcBMvNZRyqIELPoigU1AHyb2oU-spmZoYMe4pM7C-GAsORm_QQ-r1zTo5vEwhXjr9XB20LBLXilUrnabgBo37jewoGsM0Z6mvgldKhzTkJelHyd4TTnnZvu8mQu?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-74.8719978,46.4150925,0"
+							}
+						},
+						{
+							"name": "405-Lavaltrie",
+							"description": "<img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/4snn14sjl16sf3br3qm27t8e44/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYslWaF1KypSR5frf_arq--YB6-BsbGBJQVZcLF4_tZb_y_5nipOK8uSrfIqiV07fYWPYlYRK5HaMjJ6uf1VnOFRGOFvBnO1dp-BrtQIsMFTGIMjqAOi8WWF_sQbbxC69_ZJU0tYAi_GCnTyxC100D-M9omISOyYkeiifmZdUAi3SJT7LYqy1rbQ--l?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>",
+							"styleUrl": "#icon-503-DB4436-labelson",
+							"ExtendedData": {
+								"Data": {
+									"value": "https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/4snn14sjl16sf3br3qm27t8e44/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vYslWaF1KypSR5frf_arq--YB6-BsbGBJQVZcLF4_tZb_y_5nipOK8uSrfIqiV07fYWPYlYRK5HaMjJ6uf1VnOFRGOFvBnO1dp-BrtQIsMFTGIMjqAOi8WWF_sQbbxC69_ZJU0tYAi_GCnTyxC100D-M9omISOyYkeiifmZdUAi3SJT7LYqy1rbQ--l?session=0&fife",
+									"_name": "gx_media_links"
+								}
+							},
+							"Point": {
+								"coordinates": "-73.2761013,45.8841437,0"
+							}
+						}
+					]
+				},
+				{
+					"name": "Outaouais",
+					"Placemark": {
+						"name": "401 Gatineau",
+						"description": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/52rru51n53ds34dvk9qmpocu00/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaBYLEY2AKaKwL-s-DapZZxhQGPtIY6x6XNwqptQ2drE9v8F-F1pNfO8rX_X3kvi16ZNGNn2gWAx4R9PiDosMpu0-pygDa5wtMPwYldML4FIBghI5ANuXDH2nb31Tw44nHVY05gZ93zZf-I-JyCrZcJrRB-qJSuYVSqB-hO-Hx9T18DFaTW5ERw6MAa?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>18 rue de l'Orbite",
+						"styleUrl": "#icon-503-DB4436",
+						"ExtendedData": {
+							"Data": {
+								"value": "https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/jrq4mehii7gspstmatuft5abs8/52rru51n53ds34dvk9qmpocu00/1637140115000/9qABSczJaBASyxPXTvFUjROfXb7u8Pux/09458156268341633391/5AIsG_vaBYLEY2AKaKwL-s-DapZZxhQGPtIY6x6XNwqptQ2drE9v8F-F1pNfO8rX_X3kvi16ZNGNn2gWAx4R9PiDosMpu0-pygDa5wtMPwYldML4FIBghI5ANuXDH2nb31Tw44nHVY05gZ93zZf-I-JyCrZcJrRB-qJSuYVSqB-hO-Hx9T18DFaTW5ERw6MAa?session=0&fife",
+								"_name": "gx_media_links"
+							}
+						},
+						"Point": {
+							"coordinates": "-75.7753741,45.4433958,0"
+						}
+					}
+				}
+			]
+		},
+		"_xmlns": "http://www.opengis.net/kml/2.2"
+	}
+}
